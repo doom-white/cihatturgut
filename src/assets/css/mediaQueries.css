@@ -1,0 +1,1506 @@
+@media screen and (max-width: 319px) {
+    * {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 339px) {
+    html {
+        font-size: 5px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        /* width: 83%;
+        margin: 0 auto; */
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 80px;
+        left: 40px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 60px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 130px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 190px;
+    }
+
+    #div-html5 {
+        top: 70px;
+        left: 230px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 140px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 205px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 90px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 30px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 130px;
+    }
+
+    #div-body {
+        top: 190px;
+        left: 210px;
+    }
+
+    #div-hb-reading {
+        top: 80px;
+        left: 230px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 340px) and (max-width: 360px) {
+    html {
+        font-size: 5px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 95%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 80px;
+        left: 40px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 60px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 130px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 190px;
+    }
+
+    #div-html5 {
+        top: 70px;
+        left: 230px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 140px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 205px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 90px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 30px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 130px;
+    }
+
+    #div-body {
+        top: 190px;
+        left: 210px;
+    }
+
+    #div-hb-reading {
+        top: 80px;
+        left: 230px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 361px) and (max-width: 380px) {
+    html {
+        font-size: 6px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 93%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 80px;
+        left: 40px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 60px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 130px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 190px;
+    }
+
+    #div-html5 {
+        top: 70px;
+        left: 230px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 140px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 205px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 90px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 30px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 130px;
+    }
+
+    #div-body {
+        top: 190px;
+        left: 210px;
+    }
+
+    #div-hb-reading {
+        top: 80px;
+        left: 230px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 381px) and (max-width: 400px) {
+    html {
+        font-size: 6px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 85%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 80px;
+        left: 40px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 60px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 130px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 190px;
+    }
+
+    #div-html5 {
+        top: 70px;
+        left: 230px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 140px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 205px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 90px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 30px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 130px;
+    }
+
+    #div-body {
+        top: 190px;
+        left: 210px;
+    }
+
+    #div-hb-reading {
+        top: 80px;
+        left: 230px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 479px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        /* width: 80%;
+        margin: 0 auto; */
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 80px;
+        left: 60px;
+    }
+
+    #div-native {
+        top: 210px;
+        left: 60px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 180px;
+    }
+
+    #div-jscript {
+        top: 200px;
+        left: 250px;
+    }
+
+    #div-html5 {
+        top: 70px;
+        left: 280px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 170px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 255px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 70px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 250px;
+        left: 70px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 160px;
+    }
+
+    #div-body {
+        top: 220px;
+        left: 280px;
+    }
+
+    #div-hb-reading {
+        top: 60px;
+        left: 270px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    html {
+        font-size: 8px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .3rem;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-container {
+        width: 100%;
+    }
+
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 95%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 20px;
+        left: 50px;
+    }
+
+    #div-native {
+        top: 240px;
+        left: 80px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 210px;
+    }
+
+    #div-jscript {
+        top: 250px;
+        left: 330px;
+    }
+
+    #div-html5 {
+        top: 50px;
+        left: 360px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 210px;
+        left: 90px;
+    }
+
+    #div-listening {
+        top: 100px;
+        left: 220px;
+    }
+
+    #div-reading {
+        top: 190px;
+        left: 320px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 45px;
+        left: 30px;
+    }
+
+    #div-chess {
+        top: 250px;
+        left: 40px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 190px;
+    }
+
+    #div-body {
+        top: 220px;
+        left: 340px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 330px;
+    }
+
+    /* EXPERIENCES PAGE*/
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE*/
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 10px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 90%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 80%;
+        margin: 0 auto;
+        height: 40vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 20px;
+        left: 50px;
+    }
+
+    #div-native {
+        top: 240px;
+        left: 80px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 210px;
+    }
+
+    #div-jscript {
+        top: 250px;
+        left: 330px;
+    }
+
+    #div-html5 {
+        top: 50px;
+        left: 390px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 250px;
+        left: 90px;
+    }
+
+    #div-listening {
+        top: 100px;
+        left: 220px;
+    }
+
+    #div-reading {
+        top: 190px;
+        left: 350px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 45px;
+        left: 30px;
+    }
+
+    #div-chess {
+        top: 250px;
+        left: 40px;
+    }
+
+    #div-taekwondo {
+        top: 110px;
+        left: 190px;
+    }
+
+    #div-body {
+        top: 220px;
+        left: 360px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 350px;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 12px;
+    }
+
+    .footer {
+        flex: 0.13;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 90%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 80%;
+        margin: 0 auto;
+        height: 45vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 50px;
+        left: 80px;
+    }
+
+    #div-native {
+        top: 240px;
+        left: 80px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 290px;
+    }
+
+    #div-jscript {
+        top: 250px;
+        left: 450px;
+    }
+
+    #div-html5 {
+        top: 50px;
+        left: 510px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 250px;
+        left: 105px;
+    }
+
+    #div-listening {
+        top: 100px;
+        left: 295px;
+    }
+
+    #div-reading {
+        top: 190px;
+        left: 460px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 70px;
+        left: 90px;
+    }
+
+    #div-chess {
+        top: 290px;
+        left: 100px
+    }
+
+    #div-taekwondo {
+        top: 125px;
+        left: 280px;
+    }
+
+    #div-body {
+        top: 220px;
+        left: 490px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 480px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    html {
+        font-size: 14px;
+    }
+
+    .footer {
+        flex: 0.15;
+
+    }
+
+    /*PROFILE PAGE*/
+
+    .profile-container img {
+
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /*HOME PAGE*/
+
+    .home-container {
+        width: 90%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .btn-outline-navy {
+        font-size: 2.5rem;
+    }
+
+    /*CONTACT PAGE*/
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 80%;
+        margin: 0 auto;
+        height: 50vh;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 90px;
+        left: 80px;
+    }
+
+    #div-native {
+        top: 315px;
+        left: 100px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 345px;
+    }
+
+    #div-jscript {
+        top: 290px;
+        left: 510px;
+    }
+
+    #div-html5 {
+        top: 50px;
+        left: 610px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-speaking {
+
+        top: 240px;
+        left: 100px;
+    }
+
+    #div-listening {
+        top: 180px;
+        left: 370px;
+    }
+
+    #div-reading {
+        top: 50px;
+        left: 530px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 50px;
+    }
+
+    #div-chess {
+        top: 290px;
+        left: 80px
+    }
+
+    #div-taekwondo {
+        top: 125px;
+        left: 320px;
+    }
+
+    #div-body {
+        top: 220px;
+        left: 590px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 540px;
+    }
+
+
+}

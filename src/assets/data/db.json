@@ -1,0 +1,104 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "company-name": "Elif Ambalaj San. ve Tic. A.Ş.",
+      "Profession": "IT Maneger - Full time",
+      "Between-years": "11.2017 - 03.2022",
+      "total": "4 years 5 months",
+      "company-sector": "Corrugated Cardboard",
+      "city": "İstanbul / Başakşehir",
+      "picture": "https://www.acilkolim.com/class/INNOVAEditor/assets/logo%20as.png"
+    },
+    {
+      "id": "2",
+      "company-name": "Bien Ceramic",
+      "Profession": "Software Intern - Part time",
+      "Between-years": "01.2015 - 02.2015",
+      "total": "1 month",
+      "company-sector": "Ceramic - Porcelain",
+      "city": "Bilecik / Merkez",
+      "picture": "https://taskinsogutma.com/resimler/referans/f738e.jpg"
+    },
+    {
+      "id": "3",
+      "company-name": "Bilecik State Hospital",
+      "Profession": "IT Person - Full time",
+      "Between-years": "01.2011 - 05.2011",
+      "total": "4 months",
+      "company-sector": "IT Sector",
+      "city": "Bilecik / Merkez",
+      "picture": "https://interflexplastik.com/img/1411902708.png"
+    }
+  ],
+  "educations": [
+    {
+      "id": "1",
+      "school-name": "Istanbul Aydin University",
+      "faculty": "Engineering Faculty",
+      "department": "Software Engineering",
+      "scholarship": "100%",
+      "instruction-type": "Formal",
+      "language": "English",
+      "years": "10.2016 - 10.2022",
+      "grade": "3.30 / 4.00",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Istanbul_Ayd%C4%B1n_University_logo.svg/480px-Istanbul_Ayd%C4%B1n_University_logo.svg.png"
+    },
+    {
+      "id": "2",
+      "school-name": "Bilecik Şeyh Edebali University",
+      "faculty": "Computer and Technology College",
+      "department": "Computer Programming",
+      "scholarship": "100%",
+      "instruction-type": "Formal",
+      "language": "Turkish",
+      "years": "09.2013 - 06.2015",
+      "grade": "4.00 / 4.00",
+      "picture": "https://upload.wikimedia.org/wikipedia/tr/7/73/Bilecik_%C5%9Eeyh_Edebali_%C3%9Cniversitesi_logosu.jpg"
+    },
+    {
+      "id": "3",
+      "school-name": "Dumlupınar University",
+      "faculty": "Faculty of Economics and Administrative Sciences",
+      "department": "Economy",
+      "scholarship": "100%",
+      "instruction-type": "Formal",
+      "language": "Turkish",
+      "years": "09.2000 - 06.2005",
+      "grade": "2.33 / 4.00",
+      "picture": "http://www.dpu.edu.tr/app/views/panel/ckfinder/userfiles/1/images/logolar/dpu-logo.png"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "companyName": "Siliconmade Academy",
+      "instructionType": "Online",
+      "educationType": "Software Expertise",
+      "educationalContent": "C#, Object Oriented Programming (OOP)",
+      "years": "01.2021 - 05.2021",
+      "total": "4 months",
+      "picture": "https://girisimsavascisi.org/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-15-at-21.34.57.jpeg"
+    },
+    {
+      "id": "2",
+      "companyName": "UMEM Vocational Courses",
+      "instructionType": "Formal",
+      "educationType": "System Expertise (MCSE)",
+      "educationalContent": "Network,Domain,VPN,Virtual Machines etc.",
+      "years": "09.2010 - 05.2011",
+      "total": "8 months",
+      "picture": "http://www.kariyer.net/ik-blog/wp-content/uploads/2014/07/iskur-logo2-1024x590.jpg"
+    },
+    {
+      "id": "3",
+      "companyName": "Ankara University Tömer (Bursa Branch)",
+      "instructionType": "Formal",
+      "educationType": "English",
+      "educationalContent": "Elementary - Upper Intermediate",
+      "years": "10.2006 - 10.2007",
+      "total": "1 year",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/T%C3%96MER_LOGO.png"
+    }
+  ]
+}
