@@ -400,7 +400,6 @@ ul {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-
 }
 
 .qua-container {
@@ -439,30 +438,30 @@ ul {
 }
 
 .qua-png {
-    width: 9rem;
+    width: 7rem;
     margin-bottom: .5rem;
 }
 
 .qua-react {
-    width: 12rem;
+    width: 10rem;
 }
 
 .qua-native {
-    width: 17rem;
+    width: 13rem;
 }
 
 .qua-eng {
-    width: 17rem;
+    width: 13rem;
 }
 
 .qua-foreign-png {
 
-    width: 12rem;
+    width: 10rem;
 }
 
 .qua-foreign-listening {
 
-    width: 9rem;
+    width: 7rem;
 }
 
 .div-qua-png {
@@ -476,7 +475,7 @@ ul {
 }
 
 #div-css3 {
-    top: 370px;
+    top: 320px;
     left: 660px;
 }
 
@@ -523,7 +522,7 @@ ul {
 }
 
 #div-body {
-    top: 270px;
+    top: 250px;
     left: 690px;
 }
 
@@ -538,7 +537,7 @@ ul {
 }
 
 #div-chess {
-    top: 420px;
+    top: 330px;
     left: 120px;
 
 }
