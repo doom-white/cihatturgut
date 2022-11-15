@@ -161,10 +161,18 @@ body {
 
 /* HOME SETTINGS START */
 
-.home-container {
+.home-main-container {
     /* background-color: red; */
     width: 70%;
-    margin: -4rem auto 0 auto;
+    margin: -7rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    /* background-color: yellow; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,12 +215,12 @@ body {
 .div-navigation-button {
 
     /* background-color: green; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    margin-top: -2rem;
+
+}
+
+.fa-navigation-button {
+    font-size: 4rem;
 }
 
 .btn-outline-navy {
@@ -272,7 +280,16 @@ body {
 
 .contact-main-container {
     /* background-color: red; */
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.contact-container {
+    /* background-color: yellow; */
     width: 70%;
     margin: -7rem auto 0 auto;
     display: flex;
@@ -343,6 +360,26 @@ ul {
 
 /* PERSONAL PAGE SETTINGS START */
 
+.personal-main-container {
+    /* background-color: red; */
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.personal-container {
+    /* background-color: yellow; */
+    width: 70%;
+    margin: -7rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .per-icons {
     position: absolute;
     right: 2rem;
@@ -355,9 +392,20 @@ ul {
 
 /* QUALIFICATIONS PAGE SETTINGS START */
 
-.qua-container {
+.qua-main-container {
     /* background-color: red; */
     width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.qua-container {
+    /* background-color: red; */
+    width: 87%;
     height: 50vh;
     align-self: center;
     margin: -10rem auto 0 auto;
@@ -424,17 +472,17 @@ ul {
 
 #div-html5 {
     top: 80px;
-    left: 510px;
+    left: 450px;
 }
 
 #div-css3 {
-    top: 330px;
-    left: 780px;
+    top: 370px;
+    left: 660px;
 }
 
 #div-jscript {
     top: 50px;
-    left: 900px;
+    left: 810px;
 }
 
 #div-reactjs {
@@ -448,52 +496,50 @@ ul {
 }
 
 #div-eng {
-    top: 30px;
-    left: 10px;
+    top: 40px;
+    left: 50px;
 
 }
 
 #div-speaking {
 
-    top: 250px;
-    left: 250px;
+    top: 310px;
+    left: 210px;
 }
 
 #div-reading {
-
-    top: 190px;
-    left: 750px;
+    top: 240px;
+    left: 680px;
 }
 
 #div-hb-reading {
     top: 30px;
-    left: 910px;
+    left: 710px;
 }
 
 #div-listening {
-
     top: 80px;
-    left: 530px;
+    left: 450px;
 }
 
 #div-body {
-    top: 250px;
-    left: 780px;
+    top: 270px;
+    left: 690px;
 }
 
 #div-taekwondo {
     top: 140px;
-    left: 430px;
+    left: 380px;
 }
 
 #div-coding {
-    top: 50px;
-    left: 40px;
+    top: 90px;
+    left: 110px;
 }
 
 #div-chess {
-    top: 350px;
-    left: 70px;
+    top: 420px;
+    left: 120px;
 
 }
 
@@ -502,15 +548,24 @@ ul {
 
 /* EXPERIENCES PAGE SETTINGS START */
 
-.experiences-container {
+.experiences-main-container {
     /* background-color: red; */
     width: 80%;
     margin: 0 auto;
-    align-self: center;
-    margin: -7rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
 }
 
-.experiences-card h4:nth-child(even) {
+.experiences-container {
+    /* background-color: red; */
+    width: 80%;
+    margin: -3rem auto 0 auto;
+    align-self: center;
+}
+
+.experiences-card h5:nth-child(even) {
     background-color: #E9ECEF;
 }
 
@@ -523,8 +578,18 @@ ul {
 
 /* SUMMARY PAGE SETTINGS START */
 
-.summary-container {
+.summary-main-container {
     /* background-color: red; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.summary-container {
+    /* background-color: yellow; */
     width: 80%;
     margin: 0 auto;
     align-self: center;
@@ -542,8 +607,9 @@ ul {
 }
 
 .div-text-img p {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Dancing Script', cursive;
+
 }
 
 /* SUMMARY PAGE SETTINGS END */

@@ -3,7 +3,7 @@ import jsonData from "../assets/data/db.json";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ScreenVariant, ScreenButtonsVariant } from "../helpers/Variants";
-import { FaHandPointRight, FaHandPointLeft } from "react-icons/fa";
+import { FaCaretRight, FaCaretLeft } from "react-icons/fa";
 
 export const DataCart = () => {
   return (
@@ -54,26 +54,37 @@ export const DataCart = () => {
 
 const Experiences = (props) => {
   return (
-    <div className="experiences-container">
-      <DataCart />
+    <div className="experiences-main-container">
       <motion.div
         className="div-navigation-button"
         variants={ScreenButtonsVariant}
         initial="hidden"
         animate="visible"
       >
-        <Link to="/qualifications" className="btn btn-outline-navy me-4">
+        <Link to="/qualifications" className="btn btn-outline-navy">
           <span>
-            <FaHandPointLeft
+            <FaCaretLeft
+              className="fa-navigation-button"
               onClick={() =>
                 props.chageFooterColorsHandler("rgba(0, 128, 0, 0.2)", "green")
               }
             />
           </span>
         </Link>
+      </motion.div>
+      <div className="experiences-container">
+        <DataCart />
+      </div>
+      <motion.div
+        className="div-navigation-button"
+        variants={ScreenButtonsVariant}
+        initial="hidden"
+        animate="visible"
+      >
         <Link to="/educations" className="btn btn-outline-navy">
           <span>
-            <FaHandPointRight
+            <FaCaretRight
+              className="fa-navigation-button"
               onClick={() =>
                 props.chageFooterColorsHandler("rgba(0, 0, 128, 0.2)", "navy")
               }
