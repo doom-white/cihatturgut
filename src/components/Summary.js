@@ -33,9 +33,7 @@ const Summary = (props) => {
       </motion.div>
       <div className="summary-container">
         <div className="div-text-img">
-          <p className="txt-medal">
-            Thank you for patiently reviewing my CV so far.
-          </p>
+          <p className="txt-medal">Thank you for patiently reviewing my CV.</p>
           <motion.div
             variants={ScreenMedalVariant}
             initial="hidden"
