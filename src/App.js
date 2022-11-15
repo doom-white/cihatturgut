@@ -20,13 +20,15 @@ function App() {
   });
 
   useEffect(() => {
-    const [bgColor, txtColor] = JSON.parse(
-      localStorage.getItem("activeColors")
-    );
-    setActiveColor({
-      bgColor,
-      txtColor,
-    });
+    if (localStorage.getItem("activeColors")) {
+      const [bgColor, txtColor] = JSON.parse(
+        localStorage.getItem("activeColors")
+      );
+      setActiveColor({
+        bgColor,
+        txtColor,
+      });
+    }
   }, []);
 
   const chageFooterColorsHandler = (bgColor, txtColor) => {
