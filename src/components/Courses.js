@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { FaCaretRight, FaCaretLeft } from "react-icons/fa";
 import { ScreenVariant, ScreenButtonsVariant } from "../helpers/Variants";
 
-export const DataCart = () => {
+export const DataCart = ({ theme }) => {
   return (
     <div>
       {jsonData.courses.map((data) => (
@@ -25,7 +25,11 @@ export const DataCart = () => {
               />
             </div>
             <div className="col-md-8">
-              <div className="card-body experiences-card d-flex align-items-center">
+              <div
+                className={`card-body experiences-card d-flex align-items-center ${
+                  theme === "dark" ? "bg-dark" : null
+                }`}
+              >
                 <div className="left">
                   <h5 className="card-title text-end">Company Name:</h5>
                   <h5 className="card-title text-end">Instruction Type:</h5>
@@ -65,15 +69,19 @@ const Courses = (props) => {
           <span>
             <FaCaretLeft
               className="fa-navigation-button"
+              color={props.theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
-                props.chageFooterColorsHandler("rgba(0, 0, 128, 0.2)", "navy")
+                props.chageFooterColorsHandler(
+                  "rgba(0, 0, 128, 0.2)",
+                  "rgb(18, 18, 224)"
+                )
               }
             />
           </span>
         </Link>
       </motion.div>
       <div className="experiences-container">
-        <DataCart />
+        <DataCart theme={props.theme} />
       </div>
       <motion.div
         className="div-navigation-button"
@@ -85,6 +93,7 @@ const Courses = (props) => {
           <span>
             <FaCaretRight
               className="fa-navigation-button"
+              color={props.theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 props.chageFooterColorsHandler("rgba(0, 0, 0, 0.2)", "black")
               }

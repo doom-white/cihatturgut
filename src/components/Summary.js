@@ -21,6 +21,7 @@ const Summary = (props) => {
           <span>
             <FaCaretLeft
               className="fa-navigation-button"
+              color={props.theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 props.chageFooterColorsHandler(
                   "rgba(128, 0, 128, 0.2)",

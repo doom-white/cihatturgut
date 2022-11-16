@@ -9,7 +9,7 @@ import {
   ScreenButtonsVariant,
 } from "../helpers/Variants";
 
-const Home = ({ chageFooterColorsHandler }) => {
+const Home = ({ chageFooterColorsHandler, changeThemeMode, theme }) => {
   return (
     <div className="home-main-container">
       <motion.div
@@ -32,8 +32,9 @@ const Home = ({ chageFooterColorsHandler }) => {
           </span>
         </Link>
       </motion.div>
+
       <div className="home-container">
-        <Profile />
+        <Profile theme={theme} />
         <motion.div
           className="div-home-header"
           variants={ScreenHeaderVariant}
@@ -72,6 +73,7 @@ const Home = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretRight
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(255, 166, 0, 0.2)",

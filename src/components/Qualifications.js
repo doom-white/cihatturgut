@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 import { FaCaretRight, FaCaretLeft } from "react-icons/fa";
 import { ScreenButtonsVariant } from "../helpers/Variants";
 
-const Qualifications = ({ chageFooterColorsHandler }) => {
+const Qualifications = ({ chageFooterColorsHandler, theme }) => {
   const [category, setCategory] = useState("PL");
 
   return (
@@ -32,6 +32,7 @@ const Qualifications = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretLeft
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(255, 255, 0, 0.2)",
@@ -46,7 +47,13 @@ const Qualifications = ({ chageFooterColorsHandler }) => {
         <div className="qua-buttons">
           <button
             className={`btn ${
-              category === "PL" ? "btn-navy" : "btn-qua-outline-navy"
+              category === "PL"
+                ? theme === "dark"
+                  ? "btn-navy-dark"
+                  : "btn-navy"
+                : theme === "dark"
+                ? "btn-qua-outline-navy-dark"
+                : "btn-qua-outline-navy"
             } btn-lg qua-my-btn`}
             style={{ width: "33%" }}
             onClick={() => setCategory("PL")}
@@ -55,7 +62,13 @@ const Qualifications = ({ chageFooterColorsHandler }) => {
           </button>
           <button
             className={`btn ${
-              category === "FL" ? "btn-navy" : "btn-qua-outline-navy"
+              category === "FL"
+                ? theme === "dark"
+                  ? "btn-navy-dark"
+                  : "btn-navy"
+                : theme === "dark"
+                ? "btn-qua-outline-navy-dark"
+                : "btn-qua-outline-navy"
             } btn-lg qua-my-btn`}
             style={{ width: "33%" }}
             onClick={() => setCategory("FL")}
@@ -64,7 +77,13 @@ const Qualifications = ({ chageFooterColorsHandler }) => {
           </button>
           <button
             className={`btn ${
-              category === "HB" ? "btn-navy" : "btn-qua-outline-navy"
+              category === "HB"
+                ? theme === "dark"
+                  ? "btn-navy-dark"
+                  : "btn-navy"
+                : theme === "dark"
+                ? "btn-qua-outline-navy-dark"
+                : "btn-qua-outline-navy"
             } btn-lg qua-my-btn`}
             style={{ width: "33%" }}
             onClick={() => setCategory("HB")}
@@ -475,6 +494,7 @@ const Qualifications = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretRight
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(0, 60, 255, 0.2)",

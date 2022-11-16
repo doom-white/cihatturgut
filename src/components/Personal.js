@@ -17,7 +17,7 @@ import {
   ScreenButtonsVariant,
 } from "../helpers/Variants";
 
-const Personal = ({ chageFooterColorsHandler }) => {
+const Personal = ({ chageFooterColorsHandler, theme }) => {
   return (
     <div className="personal-main-container">
       <motion.div
@@ -30,6 +30,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretLeft
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(255, 166, 0, 0.2)",
@@ -63,7 +64,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -76,7 +77,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -89,7 +90,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -102,7 +103,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -115,7 +116,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -136,6 +137,7 @@ const Personal = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretRight
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler("rgba(0, 128, 0, 0.2)", "green")
               }

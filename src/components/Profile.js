@@ -3,7 +3,7 @@ import doomW from "../assets/images/chttrgt.jpg";
 import divider from "../assets/images/divider.png";
 import { motion } from "framer-motion";
 
-const Profile = () => {
+const Profile = ({ theme }) => {
   return (
     <div className="profile-container">
       <motion.img
@@ -17,7 +17,9 @@ const Profile = () => {
         transition={{ duration: 1.3, type: "spring", stiffness: 30 }}
       />
       <h2>Cihat Turgut</h2>
-      <h4>an unemployed & inexperienced engineer ...</h4>
+      <h4 style={theme === "dark" ? { color: "crimson" } : null}>
+        an unemployed & inexperienced engineer ...
+      </h4>
       <img src={divider} alt="divider" />
     </div>
   );

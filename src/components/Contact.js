@@ -16,12 +16,11 @@ import {
   ScreenButtonsVariant,
 } from "../helpers/Variants";
 
-const Contact = ({ chageFooterColorsHandler }) => {
+const Contact = ({ chageFooterColorsHandler, theme }) => {
   const onClipboardHandler = (e) => {
     navigator.clipboard.writeText(
       e.target.parentElement.parentElement.children[2].innerText
     );
-    console.log();
     toast.success("Copied!");
   };
 
@@ -37,6 +36,7 @@ const Contact = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretLeft
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(220, 20, 60, 0.3)",
@@ -69,7 +69,7 @@ const Contact = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="email"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -87,7 +87,7 @@ const Contact = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -104,7 +104,7 @@ const Contact = ({ chageFooterColorsHandler }) => {
             <div className="form-floating">
               <input
                 type="text"
-                className="form-control"
+                className={`form-control ${theme}`}
                 id="floatingInputGrid"
                 disabled
               />
@@ -130,6 +130,7 @@ const Contact = ({ chageFooterColorsHandler }) => {
           <span>
             <FaCaretRight
               className="fa-navigation-button"
+              color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
               onClick={() =>
                 chageFooterColorsHandler(
                   "rgba(255, 255, 0, 0.2)",

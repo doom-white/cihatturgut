@@ -3,10 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaDragon } from "react-icons/fa";
 
-const Navbar = ({ chageFooterColorsHandler }) => {
+const Navbar = ({ chageFooterColorsHandler, theme }) => {
   return (
     <div className="navbar-container">
-      <nav className="navbar navbar-expand-lg navbar-light bg-ligh">
+      <nav className={`navbar navbar-expand-lg navbar-${theme} bg-${theme}`}>
         <div className="container-fluid">
           <motion.div
             whileHover={{
@@ -16,10 +16,10 @@ const Navbar = ({ chageFooterColorsHandler }) => {
             animated={{ rotateY: "0" }}
             transition={{ duration: 1, type: "spring", stiffness: 30 }}
           >
-            <Link to="/" className="navbar-brand">
+            <Link to="/" className={"navbar-brand"}>
               <FaDragon
-                className="nav-dragon"
-                color="#0e3763"
+                className={"nav-dragon"}
+                color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
                 onClick={() =>
                   chageFooterColorsHandler(
                     "rgba(220, 20, 60, 0.3)",
@@ -210,11 +210,14 @@ const Navbar = ({ chageFooterColorsHandler }) => {
                     return {
                       borderBottom: isActive ? "3px solid navy" : "none",
                       backgroundColor: isActive ? "rgba(0, 0, 128, 0.2)" : null,
-                      color: isActive ? "navy" : null,
+                      color: isActive ? "rgb(18, 18, 224)" : null,
                     };
                   }}
                   onClick={() =>
-                    chageFooterColorsHandler("rgba(0, 0, 128, 0.2)", "navy")
+                    chageFooterColorsHandler(
+                      "rgba(0, 0, 128, 0.2)",
+                      "rgb(18, 18, 224)"
+                    )
                   }
                 >
                   Educations

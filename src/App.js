@@ -12,8 +12,11 @@ import NotFound from "./components/NotFound";
 import Educations from "./components/Educations";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ThemeMode from "./components/ThemeMode";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
   const [activeColor, setActiveColor] = useState({
     bgColor: "rgba(220, 20, 60, 0.3)",
     txtColor: "rgba(220, 20, 60, 1)",
@@ -31,6 +34,14 @@ function App() {
     }
   }, []);
 
+  const changeThemeMode = (mode) => {
+    if (mode === false) {
+      setTheme("dark");
+    } else if (mode === true) {
+      setTheme("light");
+    }
+  };
+
   const chageFooterColorsHandler = (bgColor, txtColor) => {
     setActiveColor({
       bgColor,
@@ -41,28 +52,40 @@ function App() {
   };
   return (
     <div className="container">
-      <div className="main-app">
+      <div className={`main-app ${theme}`}>
         <div className="header">
-          <Navbar chageFooterColorsHandler={chageFooterColorsHandler} />
+          <Navbar
+            chageFooterColorsHandler={chageFooterColorsHandler}
+            theme={theme}
+          />
         </div>
         <div className="data">
           <Routes>
             <Route
               path="/"
               element={
-                <Home chageFooterColorsHandler={chageFooterColorsHandler} />
+                <Home
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
             <Route
               path="/contact"
               element={
-                <Contact chageFooterColorsHandler={chageFooterColorsHandler} />
+                <Contact
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
             <Route
               path="/personal"
               element={
-                <Personal chageFooterColorsHandler={chageFooterColorsHandler} />
+                <Personal
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
             <Route
@@ -70,6 +93,7 @@ function App() {
               element={
                 <Qualifications
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
                 />
               }
             />
@@ -78,6 +102,7 @@ function App() {
               element={
                 <Experiences
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
                 />
               }
             />
@@ -86,25 +111,35 @@ function App() {
               element={
                 <Educations
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
                 />
               }
             />
             <Route
               path="/courses"
               element={
-                <Courses chageFooterColorsHandler={chageFooterColorsHandler} />
+                <Courses
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
             <Route
               path="/summary"
               element={
-                <Summary chageFooterColorsHandler={chageFooterColorsHandler} />
+                <Summary
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
             <Route
               path="*"
               element={
-                <NotFound chageFooterColorsHandler={chageFooterColorsHandler} />
+                <NotFound
+                  chageFooterColorsHandler={chageFooterColorsHandler}
+                  theme={theme}
+                />
               }
             />
           </Routes>
@@ -116,6 +151,7 @@ function App() {
             borderBottomColor: activeColor.txtColor,
           }}
         >
+          <ThemeMode changeThemeMode={changeThemeMode} />
           <Footer activeColor={activeColor} />
         </div>
       </div>
