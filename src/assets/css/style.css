@@ -37,6 +37,7 @@ body {
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+    position: relative;
 }
 
 /* MAIN (APP) SETTINGS END */
@@ -285,7 +286,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .contact-container {
@@ -296,6 +296,12 @@ body {
     flex-direction: column;
     justify-content: center;
 
+}
+
+.div-whatsapp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .div-contact-header h2 {

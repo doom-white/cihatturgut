@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import chttrgt from "../assets/images/chttrgt.jpg";
 import {
   FaAddressBook,
   FaCopy,
@@ -138,6 +140,22 @@ const Contact = ({ chageFooterColorsHandler }) => {
           </span>
         </Link>
       </motion.div>
+      <div className="div-whatsapp">
+        <FloatingWhatsApp
+          phoneNumber="+90 501 372 55 93"
+          accountName="cihatturgut"
+          chatMessage="Welcome! How can I help you?"
+          allowEsc
+          allowClickAway
+          notification
+          notificationSound
+          darkMode
+          avatar={chttrgt}
+          placeholder="Message"
+          buttonStyle={{ position: "absolute", width: "3rem", height: "3rem" }}
+          chatboxStyle={{ position: "absolute" }}
+        />
+      </div>
     </div>
   );
 };
