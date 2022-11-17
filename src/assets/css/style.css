@@ -28,7 +28,7 @@ body {
     width: 2.6rem;
     height: 2.6rem;
     position: absolute;
-    bottom: 6rem;
+    bottom: 5.3rem;
     left: 1.9rem;
     display: flex;
     align-items: center;
@@ -167,8 +167,8 @@ body {
 }
 
 .profile-container img {
-    width: 11rem;
-    height: 11rem;
+    width: 10rem;
+    height: 10rem;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 50%;
@@ -204,7 +204,7 @@ body {
 .home-main-container {
     /* background-color: red; */
     width: 70%;
-    margin: -7rem auto 0 auto;
+    margin: -2.5rem auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -262,19 +262,6 @@ body {
 .fa-navigation-button {
     font-size: 4rem;
 }
-
-
-/* .btn-outline-navy {
-    width: 3.5rem;
-    height: 3.5rem;
-    color: #0e3763;
-    font-size: 3rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
 
 .btn-navy {
 
@@ -451,6 +438,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem auto 0 auto;
 
 }
 
@@ -479,7 +467,7 @@ ul {
 .qua-main-container {
     /* background-color: red; */
     width: 90%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -487,12 +475,20 @@ ul {
 }
 
 .qua-container {
-    /* background-color: red; */
+    /* background-color: yellow; */
     width: 87%;
-    height: 50vh;
+    height: 45vh;
     align-self: center;
-    margin: -10rem auto 0 auto;
+    margin: 0 auto;
 
+}
+
+.qua-screens {
+    width: 100%;
+    height: 40vh;
+    /* background-color: green; */
+    position: relative;
+    overflow: hidden;
 }
 
 .qua-buttons {
@@ -511,14 +507,6 @@ ul {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-}
-
-.qua-screens {
-    width: 100%;
-    height: 60vh;
-    /* background-color: yellow; */
-    position: relative;
-    overflow: hidden;
 }
 
 .qua-png {
@@ -553,21 +541,6 @@ ul {
     /* background-color: beige; */
 }
 
-#div-html5 {
-    top: 80px;
-    left: 450px;
-}
-
-#div-css3 {
-    top: 320px;
-    left: 660px;
-}
-
-#div-jscript {
-    top: 50px;
-    left: 810px;
-}
-
 #div-reactjs {
     top: 60px;
     left: 100px;
@@ -578,6 +551,23 @@ ul {
     left: 150px;
 }
 
+#div-css3 {
+    top: 80px;
+    left: 450px;
+}
+
+#div-html5 {
+    top: 50px;
+    left: 810px;
+}
+
+#div-jscript {
+    top: 320px;
+    left: 660px;
+}
+
+/******************************/
+
 #div-eng {
     top: 40px;
     left: 50px;
@@ -586,18 +576,8 @@ ul {
 
 #div-speaking {
 
-    top: 310px;
-    left: 210px;
-}
-
-#div-reading {
-    top: 240px;
-    left: 680px;
-}
-
-#div-hb-reading {
-    top: 30px;
-    left: 710px;
+    top: 250px;
+    left: 150px;
 }
 
 #div-listening {
@@ -605,26 +585,39 @@ ul {
     left: 450px;
 }
 
-#div-body {
-    top: 250px;
-    left: 690px;
+#div-reading {
+    top: 240px;
+    left: 680px;
 }
 
-#div-taekwondo {
-    top: 140px;
-    left: 380px;
-}
+/*************************************/
 
 #div-coding {
-    top: 90px;
-    left: 110px;
+    top: 50px;
+    left: 90px;
 }
 
 #div-chess {
-    top: 330px;
+    top: 310px;
     left: 120px;
 
 }
+
+#div-taekwondo {
+    top: 120px;
+    left: 400px;
+}
+
+#div-hb-reading {
+    top: 30px;
+    left: 770px;
+}
+
+#div-body {
+    top: 220px;
+    left: 670px;
+}
+
 
 /* QUALIFICATIONS PAGE SETTINGS END */
 
@@ -633,7 +626,7 @@ ul {
 
 .experiences-main-container {
     /* background-color: red; */
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -642,7 +635,7 @@ ul {
 }
 
 .experiences-container {
-    /* background-color: red; */
+    /* background-color: yellow; */
     width: 80%;
     margin: -3rem auto 0 auto;
     align-self: center;
@@ -676,7 +669,7 @@ ul {
     width: 80%;
     margin: 0 auto;
     align-self: center;
-    margin: -10rem auto 0 auto;
+    margin: -5rem auto 0 auto;
 }
 
 .div-text-img {

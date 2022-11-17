@@ -8,6 +8,7 @@ import {
   FaHeartBroken,
   FaCaretRight,
   FaCaretLeft,
+  FaShieldAlt,
 } from "react-icons/fa";
 import TR from "../assets/images/TR.png";
 import Soldier from "../assets/images/boots.png";
@@ -107,7 +108,7 @@ const Personal = ({ chageFooterColorsHandler, theme }) => {
                 id="floatingInputGrid"
                 disabled
               />
-              <img src={Soldier} alt="Soldier-boots" className="per-icons" />
+              <FaShieldAlt className="per-icons" />
               <span>Completed (08.09.2006)</span>
               <label htmlFor="floatingInputGrid">Military Status</label>
             </div>

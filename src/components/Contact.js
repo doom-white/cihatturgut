@@ -8,6 +8,7 @@ import {
   FaCopy,
   FaCaretRight,
   FaCaretLeft,
+  FaShieldAlt,
 } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import {
