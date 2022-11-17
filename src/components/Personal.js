@@ -11,7 +11,6 @@ import {
   FaShieldAlt,
 } from "react-icons/fa";
 import TR from "../assets/images/TR.png";
-import Soldier from "../assets/images/boots.png";
 import {
   ScreenHeaderVariant,
   ScreenVariant,
