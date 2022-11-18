@@ -24,6 +24,15 @@ GALAXY S 9+ (320 X 658)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
+
+    }
+
 
     /*HOME PAGE*/
 
@@ -131,6 +140,15 @@ PIXEL 4 (353 X 745)
 
     .footer {
         flex: .1;
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
+
     }
 
     /*HOME PAGE*/
@@ -257,6 +275,15 @@ IPHONE X (375 X 812)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -361,6 +388,15 @@ IPHONE X (375 X 812)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -455,8 +491,10 @@ IPHONE X (375 X 812)
 
 /* 
 PIXEL 2 (411 X 731)
+
 PIXEL 3 (393 X 786) 
 PIXEL 3 XL (393 X 786)
+
 PIXEL 2 XL (411 X 823)
 PIXEL 5 (393 X 851) 
  */
@@ -468,6 +506,15 @@ PIXEL 5 (393 X 851)
 
     .footer {
         flex: .1;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
 
     }
 
@@ -586,6 +633,15 @@ SAMSUNG GALAXY S20 ULTRA (412 X 915)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2.3rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -687,6 +743,15 @@ SAMSUNG GALAXY S20 ULTRA (412 X 915)
 
     .footer {
         flex: .12;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: -.5rem;
+        bottom: 10rem;
 
     }
 
@@ -795,6 +860,15 @@ BLACKBERRY PLAYBOOK (600 X 1024)
 
     .footer {
         flex: .12;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2.5rem;
+        position: fixed;
+        right: 5.5rem;
+        bottom: 10rem;
 
     }
 
@@ -910,6 +984,12 @@ NEXUS 10 (800 X 1280)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2rem;
+    }
+
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -1014,6 +1094,12 @@ NEXUS 10 (800 X 1280)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -1115,6 +1201,12 @@ NEXUS 10 (800 X 1280)
 
     .footer {
         flex: .12;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2rem;
 
     }
 
@@ -1225,6 +1317,12 @@ IPAD PRO (1024 X 1366)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -1325,6 +1423,12 @@ IPAD PRO (1024 X 1366)
 
     .footer {
         flex: .2;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 2rem;
 
     }
 
@@ -1431,6 +1535,12 @@ IPAD PRO (1024 X 1366)
 
     }
 
+    .whatsapp-chat {
+
+        font-size: 2rem;
+
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -1531,6 +1641,12 @@ IPAD PRO (1024 X 1366)
 
     .footer {
         flex: .2;
+
+    }
+
+    .whatsapp-chat {
+
+        font-size: 1.5rem;
 
     }
 

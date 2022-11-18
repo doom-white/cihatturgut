@@ -388,6 +388,15 @@ body {
     justify-content: center;
 }
 
+.whatsapp-chat {
+
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
 .div-contact-header h2 {
 
     text-align: center;

@@ -28,7 +28,7 @@ const FooterBar = ({ changeThemeMode, whatsapp }) => {
                 width: "3.3rem",
                 height: "3.3rem",
               }}
-              chatboxStyle={{ position: "absolute" }}
+              chatboxClassName="whatsapp-chat"
             />
           </div>
         )}
