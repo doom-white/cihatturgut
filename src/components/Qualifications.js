@@ -10,7 +10,9 @@ import Speaking from "../assets/images/speaking.png";
 import Reading from "../assets/images/reading.png";
 import Listening from "../assets/images/listening.png";
 import Taekwondo from "../assets/images/tae.png";
+import TaekwondoW from "../assets/images/taew.png";
 import Bodybuilding from "../assets/images/bb.png";
+import BodybuildingW from "../assets/images/bbw.png";
 import Coding from "../assets/images/coding.jpg";
 import Chess from "../assets/images/chess.jpg";
 import { Link } from "react-router-dom";
@@ -447,11 +449,19 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
                     back in the day - taekwon-do
                   </span>
                 </div>
-                <img
-                  src={Taekwondo}
-                  alt="taekwon-do"
-                  className="qua-png qua-taekwondo-png"
-                />
+                {theme === "dark" ? (
+                  <img
+                    src={TaekwondoW}
+                    alt="taekwon-do"
+                    className="qua-png qua-taekwondo-png"
+                  />
+                ) : (
+                  <img
+                    src={Taekwondo}
+                    alt="taekwon-do"
+                    className="qua-png qua-taekwondo-png"
+                  />
+                )}
                 <div className="progress">
                   <div
                     className="progress-bar progress-bar-striped bg-dark progress-bar-animated"
@@ -518,11 +528,19 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
                     back in the day - body-building
                   </span>
                 </div>
-                <img
-                  src={Bodybuilding}
-                  alt="body-building"
-                  className="qua-png qua-body-png"
-                />
+                {theme === "dark" ? (
+                  <img
+                    src={BodybuildingW}
+                    alt="body-building"
+                    className="qua-png qua-body-png"
+                  />
+                ) : (
+                  <img
+                    src={Bodybuilding}
+                    alt="body-building"
+                    className="qua-png qua-body-png"
+                  />
+                )}
                 <div className="progress">
                   <div
                     className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
