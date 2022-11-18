@@ -1,6 +1,479 @@
+/* Bu aralığa kadar çalışmasın... */
+@media screen and (max-width: 319px) {
+
+    * {
+        display: none;
+    }
+
+}
+
+/*
+IPHONE 4 (320 X 480) qualification ekranı yarım kalıyor...
+NOKIA LUMIA 520 (320 X 533)
+IPHONE 5/SE (320 X 568)
+GALAXY S 9+ (320 X 658)
+*/
+@media screen and (min-width: 320px) and (max-width: 339px) {
+
+    html {
+        font-size: 5px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 40px;
+        left: 15px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 90%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .7rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 90%;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 90%;
+    }
+
+    .personal-container {
+        width: 90%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 90%;
+        height: 30vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 30px;
+        left: 10px;
+    }
+
+    #div-native {
+        top: 150px;
+        left: 20px;
+    }
+
+    #div-css3 {
+        top: 85px;
+        left: 100px;
+    }
+
+    #div-jscript {
+        top: 145px;
+        left: 170px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 180px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 10px;
+
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 30px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 105px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 170px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 15px;
+    }
+
+    #div-chess {
+        top: 170px;
+        left: 20px;
+    }
+
+    #div-taekwondo {
+        top: 80px;
+        left: 85px;
+    }
+
+    #div-body {
+        top: 120px;
+        left: 170px;
+    }
+
+    #div-hb-reading {
+        top: 30px;
+        left: 160px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.7rem;
+    }
+
+
+
+}
+
+/*
+PIXEL 4 (353 X 745)
+*/
+@media screen and (min-width: 340px) and (max-width: 359px) {
+
+    html {
+        font-size: 6px;
+    }
+
+    .footer {
+        flex: .1;
+
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 90%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .7rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 90%;
+    }
+
+    .contact-container {
+        width: 90%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 90%;
+    }
+
+    .personal-container {
+        width: 90%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 90%;
+        height: 30vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 30px;
+        left: 10px;
+    }
+
+    #div-native {
+        top: 150px;
+        left: 20px;
+    }
+
+    #div-css3 {
+        top: 85px;
+        left: 100px;
+    }
+
+    #div-jscript {
+        top: 145px;
+        left: 170px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 180px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 10px;
+
+    }
+
+    #div-speaking {
+
+        top: 120px;
+        left: 30px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 105px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 170px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 0px;
+    }
+
+    #div-chess {
+        top: 170px;
+        left: 0px;
+    }
+
+    #div-taekwondo {
+        top: 80px;
+        left: 80px;
+    }
+
+    #div-body {
+        top: 120px;
+        left: 165px;
+    }
+
+    #div-hb-reading {
+        top: 30px;
+        left: 160px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+
+}
+
 /* 
-SAMSUNG GALAXY S8+ (360 X 740) 
+GALAXY NOTE 2 (360 X 640)
+GALAXY NOTE 3 (360 X 640)
+GALAXY S 3 (360 X 640)
+GALAXY S 5 (360 X 640)
+BLACKBERRY Z30 (360 X 640)
+MICROSOFT LUMIA 950 (360 X 640)
+MOTO G4 (360 X 640)
+NEXUS 5 (360 X 640)
+NEXUS 4 (384 X 640)
+LG OPTIMUS L70 (384 X 640)
 IPHONE SE (375 X 667)
+IPHONE 6/7/8 (375 X 667)
+GALAXY S 8 (360 X 740)
+GALAXY S 8+ (360 X 740)
+IPHONE X (375 X 812)
 */
 @media screen and (min-width: 360px) and (max-width: 389px) {
 
@@ -11,6 +484,12 @@ IPHONE SE (375 X 667)
     .footer {
         flex: .1;
 
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 50px;
+        left: 15px;
     }
 
     /*HOME PAGE*/
@@ -232,6 +711,12 @@ IPHONE SE (375 X 667)
 
     }
 
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 60px;
+        left: 15px;
+    }
+
     /*HOME PAGE*/
 
     .home-main-container {
@@ -438,7 +923,13 @@ IPHONE SE (375 X 667)
 
 }
 
-/* PIXEL 5 (393 X 851) */
+/* 
+PIXEL 2 (411 X 731)
+PIXEL 3 (393 X 786) 
+PIXEL 3 XL (393 X 786)
+PIXEL 2 XL (411 X 823)
+PIXEL 5 (393 X 851) 
+ */
 @media screen and (min-width: 393px) and (max-width: 411px) {
 
     html {
@@ -448,6 +939,12 @@ IPHONE SE (375 X 667)
     .footer {
         flex: .1;
 
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 55px;
+        left: 15px;
     }
 
     /*HOME PAGE*/
@@ -659,13 +1156,15 @@ IPHONE SE (375 X 667)
 }
 
 /*
-
-SAMSUNG GALAXY S20 ULTRA (412 X 915)
-SAMSUNG GALAXY A51/A71 (412 X 914)
+NEXUS 5X (412 X 732)
+NEXUS 6 (412 X 732)
+NEXUS 6P (412 X 732)
+IPHONE 6/7/8 Plus (414 X 736)
 IPHONE XR (414 X 896)
-
+SAMSUNG GALAXY A51/A71 (412 X 914)
+SAMSUNG GALAXY S20 ULTRA (412 X 915)
 */
-@media screen and (min-width: 412px) and (max-width: 539px) {
+@media screen and (min-width: 412px) and (max-width: 419px) {
     html {
         font-size: 7px;
     }
@@ -673,6 +1172,12 @@ IPHONE XR (414 X 896)
     .footer {
         flex: .12;
 
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
     }
 
     /*HOME PAGE*/
@@ -734,7 +1239,7 @@ IPHONE XR (414 X 896)
 
     .qua-screens {
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         align-self: center;
         flex: 1;
     }
@@ -880,8 +1385,7 @@ IPHONE XR (414 X 896)
     }
 }
 
-/* SURFACE DUO (540 X 720) */
-@media screen and (min-width: 540px) and (max-width: 767px) {
+@media screen and (min-width: 420px) and (max-width: 429px) {
     html {
         font-size: 7px;
     }
@@ -889,6 +1393,454 @@ IPHONE XR (414 X 896)
     .footer {
         flex: .12;
 
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 95%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .75rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 95%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 95%;
+    }
+
+    .personal-container {
+        width: 95%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 100%;
+        height: 40vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 30px;
+        left: 30px;
+    }
+
+    #div-native {
+        top: 170px;
+        left: 20px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 145px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 225px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 250px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 15px;
+
+    }
+
+    #div-speaking {
+
+        top: 107px;
+        left: 30px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 140px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 210px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 15px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 20px;
+    }
+
+    #div-taekwondo {
+        top: 80px;
+        left: 125px;
+    }
+
+    #div-body {
+        top: 140px;
+        left: 230px;
+    }
+
+    #div-hb-reading {
+        top: 30px;
+        left: 235px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 459px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .12;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 95%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .75rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 95%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 95%;
+    }
+
+    .personal-container {
+        width: 95%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 100%;
+        height: 40vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 30px;
+        left: 30px;
+    }
+
+    #div-native {
+        top: 170px;
+        left: 40px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 165px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 255px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 280px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 15px;
+
+    }
+
+    #div-speaking {
+
+        top: 107px;
+        left: 30px;
+    }
+
+    #div-listening {
+        top: 55px;
+        left: 160px;
+    }
+
+    #div-reading {
+        top: 100px;
+        left: 250px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 15px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 20px;
+    }
+
+    #div-taekwondo {
+        top: 80px;
+        left: 140px;
+    }
+
+    #div-body {
+        top: 160px;
+        left: 255px;
+    }
+
+    #div-hb-reading {
+        top: 30px;
+        left: 250px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 460px) and (max-width: 469px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .12;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
     }
 
     /*HOME PAGE*/
@@ -976,28 +1928,28 @@ IPHONE XR (414 X 896)
     }
 
     #div-reactjs {
-        top: 20px;
-        left: 50px;
-    }
-
-    #div-native {
-        top: 140px;
+        top: 50px;
         left: 30px;
     }
 
+    #div-native {
+        top: 170px;
+        left: 20px;
+    }
+
     #div-css3 {
-        top: 90px;
-        left: 180px;
+        top: 100px;
+        left: 160px;
     }
 
     #div-jscript {
-        top: 150px;
-        left: 300px;
+        top: 180px;
+        left: 270px;
     }
 
     #div-html5 {
         top: 30px;
-        left: 330px;
+        left: 290px;
     }
 
     /*QUALIFICATIONS PAGE*/
@@ -1019,51 +1971,51 @@ IPHONE XR (414 X 896)
 
     #div-eng {
         top: 20px;
-        left: 15px;
+        left: 20px;
 
     }
 
     #div-speaking {
 
-        top: 107px;
-        left: 80px;
+        top: 120px;
+        left: 30px;
     }
 
     #div-listening {
-        top: 55px;
-        left: 200px;
+        top: 80px;
+        left: 160px;
     }
 
     #div-reading {
-        top: 100px;
-        left: 300px;
+        top: 125px;
+        left: 250px;
     }
 
     /*QUALIFICATIONS PAGE*/
     /* Hobbies */
     #div-coding {
         top: 30px;
-        left: 35px;
+        left: 25px;
     }
 
     #div-chess {
-        top: 150px;
-        left: 50px;
+        top: 215px;
+        left: 40px;
     }
 
     #div-taekwondo {
-        top: 50px;
-        left: 160px;
+        top: 80px;
+        left: 155px;
     }
 
     #div-body {
-        top: 110px;
+        top: 160px;
         left: 280px;
     }
 
     #div-hb-reading {
-        top: 10px;
-        left: 340px;
+        top: 20px;
+        left: 265px;
     }
 
     /* EXPERIENCES PAGE*/
@@ -1096,7 +2048,682 @@ IPHONE XR (414 X 896)
     }
 }
 
-/* IPAD MINI (768 X 1024) */
+@media screen and (min-width: 470px) and (max-width: 479px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .12;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 95%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .75rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 95%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 95%;
+    }
+
+    .personal-container {
+        width: 95%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 100%;
+        height: 30vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 50px;
+        left: 30px;
+    }
+
+    #div-native {
+        top: 170px;
+        left: 35px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 165px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 270px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 310px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 20px;
+
+    }
+
+    #div-speaking {
+
+        top: 140px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 80px;
+        left: 180px;
+    }
+
+    #div-reading {
+        top: 125px;
+        left: 280px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 25px;
+    }
+
+    #div-chess {
+        top: 215px;
+        left: 40px;
+    }
+
+    #div-taekwondo {
+        top: 80px;
+        left: 155px;
+    }
+
+    #div-body {
+        top: 160px;
+        left: 280px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 265px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+}
+
+/* NOKIA N9 (480 X 854) */
+@media screen and (min-width: 480px) and (max-width: 519px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .12;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 15px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 95%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .75rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 95%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 95%;
+    }
+
+    .personal-container {
+        width: 95%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 100%;
+        height: 30vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 50px;
+        left: 30px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 35px;
+    }
+
+    #div-css3 {
+        top: 100px;
+        left: 175px;
+    }
+
+    #div-jscript {
+        top: 180px;
+        left: 300px;
+    }
+
+    #div-html5 {
+        top: 30px;
+        left: 330px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 20px;
+
+    }
+
+    #div-speaking {
+
+        top: 140px;
+        left: 50px;
+    }
+
+    #div-listening {
+        top: 80px;
+        left: 175px;
+    }
+
+    #div-reading {
+        top: 125px;
+        left: 275px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 25px;
+    }
+
+    #div-chess {
+        top: 215px;
+        left: 30px;
+    }
+
+    #div-taekwondo {
+        top: 100px;
+        left: 150px;
+    }
+
+    #div-body {
+        top: 160px;
+        left: 295px;
+    }
+
+    #div-hb-reading {
+        top: 20px;
+        left: 300px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+}
+
+/* 
+SURFACE DUO (540 X 720) 
+NEXUS 7 (600 X 960)
+BLACKBERRY PLAYBOOK (600 X 1024)
+*/
+@media screen and (min-width: 520px) and (max-width: 767px) {
+    html {
+        font-size: 7px;
+    }
+
+    .footer {
+        flex: .12;
+
+    }
+
+    /* THEME MODE */
+    .div-main-theme {
+        bottom: 70px;
+        left: 47px;
+    }
+
+    /*HOME PAGE*/
+
+    .home-main-container {
+
+        width: 95%;
+    }
+
+    .home-container {
+        width: 100%;
+        margin: -10rem auto 0 auto;
+    }
+
+    .home-question {
+        font-size: 1.2rem;
+        margin-bottom: .75rem;
+    }
+
+    /*CONTACT PAGE*/
+    .contact-main-container {
+        width: 95%;
+    }
+
+    .contact-container {
+        width: 95%;
+    }
+
+    .div-contact-header h2 {
+        margin-bottom: 2rem;
+    }
+
+    /* PERSONAL PAGE */
+
+    .personal-main-container {
+        width: 95%;
+    }
+
+    .personal-container {
+        width: 95%;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+
+    .qua-main-container {
+
+        width: 100%;
+    }
+
+    .qua-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Programming Lang.*/
+
+    .qua-screens {
+        width: 100%;
+        height: 30vh;
+        align-self: center;
+        flex: 1;
+    }
+
+    .qua-react {
+        width: 9rem;
+    }
+
+    .qua-native {
+        width: 11rem;
+    }
+
+    .qua-html5 {
+        width: 7rem;
+    }
+
+    .qua-jscript {
+        width: 7rem;
+    }
+
+    .qua-css3 {
+        width: 7rem;
+    }
+
+    #div-reactjs {
+        top: 50px;
+        left: 50px;
+    }
+
+    #div-native {
+        top: 190px;
+        left: 30px;
+    }
+
+    #div-css3 {
+        top: 90px;
+        left: 190px;
+    }
+
+    #div-jscript {
+        top: 210px;
+        left: 300px;
+    }
+
+    #div-html5 {
+        top: 65px;
+        left: 330px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /*Foreign Lang.*/
+
+    .qua-eng {
+        width: 12rem;
+    }
+
+    .qua-foreign-png {
+
+        width: 11rem;
+    }
+
+    .qua-foreign-listening {
+
+        width: 7rem;
+    }
+
+    #div-eng {
+        top: 20px;
+        left: 15px;
+
+    }
+
+    #div-speaking {
+
+        top: 130px;
+        left: 60px;
+    }
+
+    #div-listening {
+        top: 75px;
+        left: 190px;
+    }
+
+    #div-reading {
+        top: 140px;
+        left: 300px;
+    }
+
+    /*QUALIFICATIONS PAGE*/
+    /* Hobbies */
+    #div-coding {
+        top: 30px;
+        left: 35px;
+    }
+
+    #div-chess {
+        top: 190px;
+        left: 50px;
+    }
+
+    #div-taekwondo {
+        top: 70px;
+        left: 175px;
+    }
+
+    #div-body {
+        top: 150px;
+        left: 300px;
+    }
+
+    #div-hb-reading {
+        top: 40px;
+        left: 320px;
+    }
+
+    /* EXPERIENCES PAGE*/
+
+    .experiences-main-container {
+        width: 100%;
+    }
+
+    .experiences-container {
+        width: 90%;
+    }
+
+    .img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    /* SUMMARY PAGE */
+
+    .summary-main-container {
+        width: 90%;
+    }
+
+    .summary-container {
+        width: 90%;
+    }
+
+    .div-text-img p {
+        font-size: 2.5rem;
+    }
+}
+
+/* 
+IPAD (768 X 1024) 
+IPAD MINI (768 X 1024) 
+GALAXY TAB S4 (712 X 1138)
+KINDLE FIRE HDX (800 X 1280)
+NEXUS 10 (800 X 1280)
+*/
 @media screen and (min-width: 768px) and (max-width: 819px) {
     html {
         font-size: 9px;
@@ -1116,7 +2743,7 @@ IPHONE XR (414 X 896)
 
     .home-container {
         width: 100%;
-        margin: -10rem auto 0 auto;
+        margin: auto;
     }
 
     .home-question {
@@ -1263,7 +2890,7 @@ IPHONE XR (414 X 896)
     }
 
     #div-chess {
-        top: 220px;
+        top: 210px;
         left: 50px;
     }
 
@@ -1273,7 +2900,7 @@ IPHONE XR (414 X 896)
     }
 
     #div-body {
-        top: 150px;
+        top: 145px;
         left: 420px;
     }
 
@@ -1744,30 +3371,26 @@ IPHONE XR (414 X 896)
     }
 }
 
-/* NEST HUB (1024 X 600) */
+/* 
+NEST HUB (1024 X 600) 
+IPAD PRO (1024 X 1366)
+*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     html {
         font-size: 10px;
     }
 
     .footer {
-        flex: .12;
+        flex: .17;
 
     }
-
-    /* THEME MODE PAGE */
-
-    .div-main-theme {
-        bottom: 3.3rem;
-
-    }
-
 
     /*HOME PAGE*/
 
     .home-main-container {
 
-        width: 95%;
+        width: 70%;
+        margin-top: -1.5rem;
     }
 
     .home-container {
@@ -1782,7 +3405,8 @@ IPHONE XR (414 X 896)
 
     /*CONTACT PAGE*/
     .contact-main-container {
-        width: 95%;
+        width: 70%;
+        margin-top: 1.5rem;
     }
 
     .contact-container {
@@ -1796,7 +3420,8 @@ IPHONE XR (414 X 896)
     /* PERSONAL PAGE */
 
     .personal-main-container {
-        width: 95%;
+        width: 70%;
+        margin-top: 3rem;
     }
 
     .personal-container {
@@ -1808,13 +3433,14 @@ IPHONE XR (414 X 896)
     .qua-main-container {
 
         width: 100%;
-        align-self: flex-start;
-        height: 77vh;
+        align-self: center;
+        height: 60vh;
+
     }
 
     .qua-container {
         width: 100%;
-        height: 77vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
 
@@ -1825,10 +3451,10 @@ IPHONE XR (414 X 896)
     /*Programming Lang.*/
 
     .qua-screens {
-        width: 70%;
-        height: 30vh;
-        align-self: center;
+        width: 90%;
         flex: 1;
+        align-self: center;
+
     }
 
     .qua-react {
@@ -1852,28 +3478,28 @@ IPHONE XR (414 X 896)
     }
 
     #div-reactjs {
-        top: 60px;
-        left: 60px;
+        top: 40px;
+        left: 110px;
     }
 
     #div-native {
-        top: 280px;
-        left: 70px;
+        top: 210px;
+        left: 100px;
     }
 
     #div-css3 {
-        top: 130px;
-        left: 250px;
+        top: 90px;
+        left: 320px;
     }
 
     #div-jscript {
-        top: 270px;
-        left: 410px;
+        top: 200px;
+        left: 520px;
     }
 
     #div-html5 {
-        top: 50px;
-        left: 435px;
+        top: 30px;
+        left: 570px;
     }
 
     /*QUALIFICATIONS PAGE*/
@@ -1901,51 +3527,52 @@ IPHONE XR (414 X 896)
 
     #div-speaking {
 
-        top: 210px;
-        left: 90px;
+        top: 125px;
+        left: 130px;
     }
 
     #div-listening {
-        top: 120px;
-        left: 260px;
+        top: 70px;
+        left: 330px;
     }
 
     #div-reading {
-        top: 190px;
-        left: 390px;
+        top: 130px;
+        left: 490px;
     }
 
     /*QUALIFICATIONS PAGE*/
     /* Hobbies */
     #div-coding {
-        top: 50px;
+        top: 25px;
         left: 55px;
     }
 
     #div-chess {
-        top: 250px;
-        left: 50px;
+        top: 185px;
+        left: 100px;
     }
 
     #div-taekwondo {
-        top: 130px;
-        left: 230px;
+        top: 140px;
+        left: 490px
     }
 
     #div-body {
-        top: 190px;
-        left: 400px;
+        top: 70px;
+        left: 310px;
     }
 
     #div-hb-reading {
-        top: 40px;
-        left: 410px;
+        top: 10px;
+        left: 590px;
     }
 
     /* EXPERIENCES PAGE*/
 
     .experiences-main-container {
-        width: 100%;
+        width: 70%;
+        margin-top: 2.5rem;
     }
 
     .experiences-container {
@@ -1960,7 +3587,8 @@ IPHONE XR (414 X 896)
     /* SUMMARY PAGE */
 
     .summary-main-container {
-        width: 90%;
+        width: 70%;
+        margin-top: 3rem;
     }
 
     .summary-container {
@@ -1979,23 +3607,15 @@ IPHONE XR (414 X 896)
     }
 
     .footer {
-        flex: .15;
+        flex: .2;
 
     }
-
-    /* THEME MODE PAGE */
-
-    .div-main-theme {
-        bottom: 3.7rem;
-
-    }
-
 
     /*HOME PAGE*/
 
     .home-main-container {
 
-        width: 95%;
+        width: 70%;
     }
 
     .home-container {
@@ -2004,13 +3624,14 @@ IPHONE XR (414 X 896)
     }
 
     .home-question {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-bottom: .75rem;
     }
 
     /*CONTACT PAGE*/
     .contact-main-container {
-        width: 95%;
+        width: 70%;
+        margin-top: 2rem;
     }
 
     .contact-container {
@@ -2024,7 +3645,8 @@ IPHONE XR (414 X 896)
     /* PERSONAL PAGE */
 
     .personal-main-container {
-        width: 95%;
+        width: 70%;
+        margin-top: 2rem;
     }
 
     .personal-container {
@@ -2037,12 +3659,13 @@ IPHONE XR (414 X 896)
 
         width: 100%;
         align-self: flex-start;
-        height: 77vh;
+        height: 66vh;
+        margin-top: 3rem;
     }
 
     .qua-container {
         width: 100%;
-        height: 77vh;
+        height: 66vh;
         display: flex;
         flex-direction: column;
 
@@ -2095,12 +3718,12 @@ IPHONE XR (414 X 896)
     }
 
     #div-jscript {
-        top: 370px;
+        top: 300px;
         left: 500px;
     }
 
     #div-html5 {
-        top: 110px;
+        top: 90px;
         left: 540px;
     }
 
@@ -2151,7 +3774,7 @@ IPHONE XR (414 X 896)
     }
 
     #div-chess {
-        top: 340px;
+        top: 310px;
         left: 50px;
     }
 
@@ -2161,7 +3784,7 @@ IPHONE XR (414 X 896)
     }
 
     #div-body {
-        top: 290px;
+        top: 210px;
         left: 480px;
     }
 
@@ -2173,7 +3796,8 @@ IPHONE XR (414 X 896)
     /* EXPERIENCES PAGE*/
 
     .experiences-main-container {
-        width: 100%;
+        width: 70%;
+        margin-top: 2.5rem;
     }
 
     .experiences-container {
@@ -2188,7 +3812,8 @@ IPHONE XR (414 X 896)
     /* SUMMARY PAGE */
 
     .summary-main-container {
-        width: 90%;
+        width: 70%;
+        margin-top: 2.5rem;
     }
 
     .summary-container {
@@ -2200,7 +3825,6 @@ IPHONE XR (414 X 896)
     }
 }
 
-
 /* OTHERS (1400 X 900) */
 @media screen and (min-width: 1400px) and (max-width: 1599px) {
     html {
@@ -2208,23 +3832,14 @@ IPHONE XR (414 X 896)
     }
 
     .footer {
-        flex: .15;
-
+        flex: .25;
     }
-
-    /* THEME MODE PAGE */
-
-    .div-main-theme {
-        bottom: 4.3rem;
-
-    }
-
 
     /*HOME PAGE*/
 
     .home-main-container {
 
-        width: 95%;
+        width: 70%;
     }
 
     .home-container {
@@ -2239,7 +3854,7 @@ IPHONE XR (414 X 896)
 
     /*CONTACT PAGE*/
     .contact-main-container {
-        width: 95%;
+        width: 70%;
     }
 
     .contact-container {
@@ -2253,7 +3868,7 @@ IPHONE XR (414 X 896)
     /* PERSONAL PAGE */
 
     .personal-main-container {
-        width: 95%;
+        width: 70%;
     }
 
     .personal-container {
@@ -2265,13 +3880,13 @@ IPHONE XR (414 X 896)
     .qua-main-container {
 
         width: 100%;
-        align-self: flex-start;
-        height: 77vh;
+        align-self: center;
+        height: 70vh;
     }
 
     .qua-container {
         width: 100%;
-        height: 77vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
 
@@ -2283,7 +3898,6 @@ IPHONE XR (414 X 896)
 
     .qua-screens {
         width: 70%;
-        height: 30vh;
         align-self: center;
         flex: 1;
     }
@@ -2402,7 +4016,8 @@ IPHONE XR (414 X 896)
     /* EXPERIENCES PAGE*/
 
     .experiences-main-container {
-        width: 100%;
+        width: 70%;
+        margin-top: 1rem;
     }
 
     .experiences-container {
@@ -2417,7 +4032,8 @@ IPHONE XR (414 X 896)
     /* SUMMARY PAGE */
 
     .summary-main-container {
-        width: 90%;
+        width: 70%;
+        margin-top: 2rem;
     }
 
     .summary-container {
@@ -2436,23 +4052,14 @@ IPHONE XR (414 X 896)
     }
 
     .footer {
-        flex: .15;
-
+        flex: .25;
     }
-
-    /* THEME MODE PAGE */
-
-    .div-main-theme {
-        bottom: 4.3rem;
-
-    }
-
 
     /*HOME PAGE*/
 
     .home-main-container {
 
-        width: 95%;
+        width: 70%;
     }
 
     .home-container {
@@ -2467,7 +4074,7 @@ IPHONE XR (414 X 896)
 
     /*CONTACT PAGE*/
     .contact-main-container {
-        width: 95%;
+        width: 70%;
     }
 
     .contact-container {
@@ -2481,7 +4088,7 @@ IPHONE XR (414 X 896)
     /* PERSONAL PAGE */
 
     .personal-main-container {
-        width: 95%;
+        width: 70%;
     }
 
     .personal-container {
@@ -2493,13 +4100,13 @@ IPHONE XR (414 X 896)
     .qua-main-container {
 
         width: 100%;
-        align-self: flex-start;
-        height: 77vh;
+        align-self: center;
+        height: 69vh;
     }
 
     .qua-container {
         width: 100%;
-        height: 77vh;
+        height: 69vh;
         display: flex;
         flex-direction: column;
 
@@ -2511,7 +4118,6 @@ IPHONE XR (414 X 896)
 
     .qua-screens {
         width: 70%;
-        height: 30vh;
         align-self: center;
         flex: 1;
     }
@@ -2587,17 +4193,17 @@ IPHONE XR (414 X 896)
     #div-speaking {
 
         top: 210px;
-        left: 110px;
+        left: 140px;
     }
 
     #div-listening {
         top: 120px;
-        left: 350px;
+        left: 370px;
     }
 
     #div-reading {
         top: 190px;
-        left: 530px;
+        left: 550px;
     }
 
     /*QUALIFICATIONS PAGE*/
@@ -2618,7 +4224,7 @@ IPHONE XR (414 X 896)
     }
 
     #div-body {
-        top: 240px;
+        top: 260px;
         left: 580px;
     }
 
@@ -2630,235 +4236,8 @@ IPHONE XR (414 X 896)
     /* EXPERIENCES PAGE*/
 
     .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-}
-
-/* OTHERS (1800 X 900) */
-@media screen and (min-width: 1800px) and (max-width: 1999px) {
-    html {
-        font-size: 15px;
-    }
-
-    .footer {
-        flex: .15;
-
-    }
-
-    /* THEME MODE PAGE */
-
-    .div-main-theme {
-        bottom: 4.3rem;
-
-    }
-
-
-    /*HOME PAGE*/
-
-    .home-main-container {
-
-        width: 95%;
-    }
-
-    .home-container {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .75rem;
-    }
-
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 95%;
-    }
-
-    .contact-container {
-        width: 95%;
-    }
-
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
-
-    /* PERSONAL PAGE */
-
-    .personal-main-container {
-        width: 95%;
-    }
-
-    .personal-container {
-        width: 95%;
-    }
-
-    /*QUALIFICATIONS PAGE*/
-
-    .qua-main-container {
-
-        width: 100%;
-        align-self: flex-start;
-        height: 77vh;
-    }
-
-    .qua-container {
-        width: 100%;
-        height: 77vh;
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
-
-    .qua-screens {
         width: 70%;
-        height: 30vh;
-        align-self: center;
-        flex: 1;
-    }
-
-    .qua-react {
-        width: 9rem;
-    }
-
-    .qua-native {
-        width: 11rem;
-    }
-
-    .qua-html5 {
-        width: 7rem;
-    }
-
-    .qua-jscript {
-        width: 7rem;
-    }
-
-    .qua-css3 {
-        width: 7rem;
-    }
-
-    #div-reactjs {
-        top: 90px;
-        left: 80px;
-    }
-
-    #div-native {
-        top: 370px;
-        left: 100px;
-    }
-
-    #div-css3 {
-        top: 180px;
-        left: 330px;
-    }
-
-    #div-jscript {
-        top: 370px;
-        left: 550px;
-    }
-
-    #div-html5 {
-        top: 110px;
-        left: 600px;
-    }
-
-    /*QUALIFICATIONS PAGE*/
-    /*Foreign Lang.*/
-
-    .qua-eng {
-        width: 12rem;
-    }
-
-    .qua-foreign-png {
-
-        width: 11rem;
-    }
-
-    .qua-foreign-listening {
-
-        width: 7rem;
-    }
-
-    #div-eng {
-        top: 25px;
-        left: 20px;
-
-    }
-
-    #div-speaking {
-
-        top: 210px;
-        left: 110px;
-    }
-
-    #div-listening {
-        top: 120px;
-        left: 350px;
-    }
-
-    #div-reading {
-        top: 190px;
-        left: 530px;
-    }
-
-    /*QUALIFICATIONS PAGE*/
-    /* Hobbies */
-    #div-coding {
-        top: 50px;
-        left: 55px;
-    }
-
-    #div-chess {
-        top: 360px;
-        left: 80px;
-    }
-
-    #div-taekwondo {
-        top: 170px;
-        left: 305px;
-    }
-
-    #div-body {
-        top: 240px;
-        left: 580px;
-    }
-
-    #div-hb-reading {
-        top: 40px;
-        left: 550px;
-    }
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 100%;
+        margin-top: 2rem;
     }
 
     .experiences-container {
@@ -2873,7 +4252,8 @@ IPHONE XR (414 X 896)
     /* SUMMARY PAGE */
 
     .summary-main-container {
-        width: 90%;
+        width: 70%;
+        margin-top: 2rem;
     }
 
     .summary-container {
@@ -2882,17 +4262,5 @@ IPHONE XR (414 X 896)
 
     .div-text-img p {
         font-size: 2.5rem;
-    }
-}
-
-/* OTHERS (2000 X 900) */
-@media screen and (min-width: 2000px) {
-    html {
-        font-size: 16px;
-    }
-
-    .footer {
-        flex: .2;
-
     }
 }

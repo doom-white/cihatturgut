@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { FloatingWhatsApp } from "react-floating-whatsapp";
-import chttrgt from "../assets/images/chttrgt.jpg";
+
 import {
   FaAddressBook,
   FaCopy,
@@ -16,7 +15,7 @@ import {
   ScreenButtonsVariant,
 } from "../helpers/Variants";
 
-const Contact = ({ chageFooterColorsHandler, theme }) => {
+const Contact = ({ chageFooterColorsHandler, theme, getWhatsappStatus }) => {
   const onClipboardHandler = (e) => {
     navigator.clipboard.writeText(
       e.target.parentElement.parentElement.children[2].innerText
@@ -37,12 +36,13 @@ const Contact = ({ chageFooterColorsHandler, theme }) => {
             <FaCaretLeft
               className="fa-navigation-button"
               color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
-              onClick={() =>
+              onClick={() => {
+                getWhatsappStatus(false);
                 chageFooterColorsHandler(
                   "rgba(220, 20, 60, 0.3)",
                   "rgba(220, 20, 60, 1)"
-                )
-              }
+                );
+              }}
             />
           </span>
         </Link>
@@ -131,32 +131,17 @@ const Contact = ({ chageFooterColorsHandler, theme }) => {
             <FaCaretRight
               className="fa-navigation-button"
               color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
-              onClick={() =>
+              onClick={() => {
+                getWhatsappStatus(false);
                 chageFooterColorsHandler(
                   "rgba(255, 255, 0, 0.2)",
                   "rgb(163, 163,6)"
-                )
-              }
+                );
+              }}
             />
           </span>
         </Link>
       </motion.div>
-      <div className="div-whatsapp">
-        <FloatingWhatsApp
-          phoneNumber="+90 501 372 55 93"
-          accountName="cihatturgut"
-          chatMessage="Welcome! How can I help you?"
-          allowEsc
-          allowClickAway
-          notification
-          notificationSound
-          darkMode
-          avatar={chttrgt}
-          placeholder="Message"
-          buttonStyle={{ position: "absolute", width: "3rem", height: "3rem" }}
-          chatboxStyle={{ position: "absolute" }}
-        />
-      </div>
     </div>
   );
 };

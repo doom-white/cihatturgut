@@ -9,7 +9,7 @@ import {
   ScreenButtonsVariant,
 } from "../helpers/Variants";
 
-const Home = ({ chageFooterColorsHandler, changeThemeMode, theme }) => {
+const Home = ({ chageFooterColorsHandler, theme, getWhatsappStatus }) => {
   return (
     <div className="home-main-container">
       <motion.div
@@ -74,12 +74,13 @@ const Home = ({ chageFooterColorsHandler, changeThemeMode, theme }) => {
             <FaCaretRight
               className="fa-navigation-button"
               color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
-              onClick={() =>
+              onClick={() => {
+                getWhatsappStatus(true);
                 chageFooterColorsHandler(
                   "rgba(255, 166, 0, 0.2)",
                   "rgba(255, 166, 0,1)"
-                )
-              }
+                );
+              }}
             />
           </span>
         </Link>

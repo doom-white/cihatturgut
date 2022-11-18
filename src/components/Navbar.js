@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaDragon } from "react-icons/fa";
 
-const Navbar = ({ chageFooterColorsHandler, theme }) => {
+const Navbar = ({ chageFooterColorsHandler, theme, getWhatsappStatus }) => {
   return (
     <div className="navbar-container">
       <nav className={`navbar navbar-expand-lg navbar-${theme} bg-${theme}`}>
@@ -20,12 +20,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
               <FaDragon
                 className={"nav-dragon"}
                 color={theme === "dark" ? "#F8F9FA" : "#0e3763"}
-                onClick={() =>
+                onClick={() => {
+                  getWhatsappStatus(false);
                   chageFooterColorsHandler(
                     "rgba(220, 20, 60, 0.3)",
                     "rgba(220, 20, 60, 1)"
-                  )
-                }
+                  );
+                }}
               />
             </Link>
           </motion.div>
@@ -63,12 +64,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "rgba(220, 20, 60, 1)" : null,
                     };
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    getWhatsappStatus(false);
                     chageFooterColorsHandler(
                       "rgba(220, 20, 60, 0.3)",
                       "rgba(220, 20, 60, 1)"
-                    )
-                  }
+                    );
+                  }}
                 >
                   Home
                 </NavLink>
@@ -94,12 +96,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "rgba(255, 166, 0,1)" : null,
                     };
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    getWhatsappStatus(true);
                     chageFooterColorsHandler(
                       "rgba(255, 166, 0, 0.2)",
                       "rgba(255, 166, 0,1)"
-                    )
-                  }
+                    );
+                  }}
                 >
                   Contact
                 </NavLink>
@@ -127,12 +130,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "rgb(163,163,6)" : null,
                     };
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    getWhatsappStatus(false);
                     chageFooterColorsHandler(
                       "rgba(255, 255, 0, 0.2)",
                       "rgb(163, 163,6)"
-                    )
-                  }
+                    );
+                  }}
                 >
                   Personal
                 </NavLink>
@@ -156,9 +160,10 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "green" : null,
                     };
                   }}
-                  onClick={() =>
-                    chageFooterColorsHandler("rgba(0, 128, 0, 0.2)", "green")
-                  }
+                  onClick={() => {
+                    getWhatsappStatus(false);
+                    chageFooterColorsHandler("rgba(0, 128, 0, 0.2)", "green");
+                  }}
                 >
                   Qualifications
                 </NavLink>
@@ -184,12 +189,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "rgb(0,60,255)" : null,
                     };
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    getWhatsappStatus(false);
                     chageFooterColorsHandler(
                       "rgba(0, 60, 255, 0.2)",
                       "rgb(0, 60,255)"
-                    )
-                  }
+                    );
+                  }}
                 >
                   Experiences
                 </NavLink>
@@ -213,12 +219,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "rgb(18, 18, 224)" : null,
                     };
                   }}
-                  onClick={() =>
+                  onClick={() => {
+                    getWhatsappStatus(false);
                     chageFooterColorsHandler(
                       "rgba(0, 0, 128, 0.2)",
                       "rgb(18, 18, 224)"
-                    )
-                  }
+                    );
+                  }}
                 >
                   Educations
                 </NavLink>
@@ -244,9 +251,13 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "purple" : null,
                     };
                   }}
-                  onClick={() =>
-                    chageFooterColorsHandler("rgba(128, 0, 128, 0.2)", "purple")
-                  }
+                  onClick={() => {
+                    getWhatsappStatus(false);
+                    chageFooterColorsHandler(
+                      "rgba(128, 0, 128, 0.2)",
+                      "purple"
+                    );
+                  }}
                 >
                   Courses
                 </NavLink>
@@ -271,9 +282,10 @@ const Navbar = ({ chageFooterColorsHandler, theme }) => {
                       color: isActive ? "black" : null,
                     };
                   }}
-                  onClick={() =>
-                    chageFooterColorsHandler("rgba(0, 0, 0, 0.2)", "black")
-                  }
+                  onClick={() => {
+                    getWhatsappStatus(false);
+                    chageFooterColorsHandler("rgba(0, 0, 0, 0.2)", "black");
+                  }}
                 >
                   Summary
                 </NavLink>

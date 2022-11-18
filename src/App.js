@@ -12,11 +12,11 @@ import NotFound from "./components/NotFound";
 import Educations from "./components/Educations";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import ThemeMode from "./components/ThemeMode";
+import FooterBar from "./components/FooterBar";
 
 function App() {
+  const [whatsapp, setWhatsapp] = useState(false);
   const [theme, setTheme] = useState("light");
-
   const [activeColor, setActiveColor] = useState({
     bgColor: "rgba(220, 20, 60, 0.3)",
     txtColor: "rgba(220, 20, 60, 1)",
@@ -42,6 +42,10 @@ function App() {
     }
   };
 
+  const getWhatsappStatus = (lockStatus) => {
+    setWhatsapp(lockStatus);
+  };
+
   const chageFooterColorsHandler = (bgColor, txtColor) => {
     setActiveColor({
       bgColor,
@@ -57,6 +61,7 @@ function App() {
           <Navbar
             chageFooterColorsHandler={chageFooterColorsHandler}
             theme={theme}
+            getWhatsappStatus={getWhatsappStatus}
           />
         </div>
         <div className="data">
@@ -66,6 +71,7 @@ function App() {
               element={
                 <Home
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  getWhatsappStatus={getWhatsappStatus}
                   theme={theme}
                 />
               }
@@ -75,6 +81,7 @@ function App() {
               element={
                 <Contact
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  getWhatsappStatus={getWhatsappStatus}
                   theme={theme}
                 />
               }
@@ -84,6 +91,7 @@ function App() {
               element={
                 <Personal
                   chageFooterColorsHandler={chageFooterColorsHandler}
+                  getWhatsappStatus={getWhatsappStatus}
                   theme={theme}
                 />
               }
@@ -144,6 +152,9 @@ function App() {
             />
           </Routes>
         </div>
+
+        <FooterBar changeThemeMode={changeThemeMode} whatsapp={whatsapp} />
+
         <div
           className="footer"
           style={{
@@ -151,7 +162,6 @@ function App() {
             borderBottomColor: activeColor.txtColor,
           }}
         >
-          <ThemeMode changeThemeMode={changeThemeMode} />
           <Footer activeColor={activeColor} />
         </div>
       </div>
