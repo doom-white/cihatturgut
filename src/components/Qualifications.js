@@ -46,7 +46,7 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
       <div className="qua-container">
         <div className="qua-buttons">
           <button
-            className={`btn ${
+            className={`${
               category === "PL"
                 ? theme === "dark"
                   ? "btn-navy-dark"
@@ -61,7 +61,7 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
             Prog. Languages
           </button>
           <button
-            className={`btn ${
+            className={`${
               category === "FL"
                 ? theme === "dark"
                   ? "btn-navy-dark"
@@ -76,7 +76,7 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
             Foreign Language
           </button>
           <button
-            className={`btn ${
+            className={`${
               category === "HB"
                 ? theme === "dark"
                   ? "btn-navy-dark"
@@ -93,394 +93,448 @@ const Qualifications = ({ chageFooterColorsHandler, theme }) => {
         </div>
         {category === "PL" && (
           <div className="qua-screens">
-            <motion.div
-              id="div-html5"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.6,
-                stiffness: 210,
-              }}
-            >
-              <img src={html5} alt="html5" className="qua-png qua-html5" />
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  style={{ width: "90%", fontSize: "1.1rem" }}
-                >
-                  90%
+            <div className="row">
+              {/*reactjs*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.3,
+                  stiffness: 250,
+                }}
+              >
+                <img
+                  src={reactjs}
+                  alt="reactjs"
+                  className="qua-png qua-react-png"
+                />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-info progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "70%", fontSize: "1.1rem" }}
+                  >
+                    70%
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              {/*html5*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.6,
+                  stiffness: 210,
+                }}
+              >
+                <img src={html5} alt="html5" className="qua-png" />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "90%", fontSize: "1.1rem" }}
+                  >
+                    90%
+                  </div>
+                </div>
+              </motion.div>
+            </div>
 
-            <motion.div
-              id="div-css3"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.7,
-                stiffness: 200,
-              }}
-            >
-              <img src={css3} alt="css3" className="qua-png qua-css3" />
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  style={{ width: "90%", fontSize: "1.1rem" }}
-                >
-                  90%
+            <div className="row">
+              <div className="col qua-matrix-column"></div>
+              {/*css3*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.7,
+                  stiffness: 200,
+                }}
+              >
+                <img src={css3} alt="css3" className="qua-png" />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "90%", fontSize: "1.1rem" }}
+                  >
+                    90%
+                  </div>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+            </div>
 
-            <motion.div
-              id="div-jscript"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.8,
-                stiffness: 180,
-              }}
-            >
-              <img
-                src={jscript}
-                alt="javascript"
-                className="qua-png qua-jscript"
-              />
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  style={{ width: "80%", fontSize: "1.1rem" }}
-                >
-                  80%
+            <div className="row">
+              {/*native*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.5,
+                  stiffness: 230,
+                }}
+              >
+                <img
+                  src={native}
+                  alt="react-native"
+                  className="qua-png qua-native-png"
+                />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "60%", fontSize: "1.1rem" }}
+                  >
+                    60%
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              id="div-reactjs"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.3,
-                stiffness: 250,
-              }}
-            >
-              <img src={reactjs} alt="reactjs" className="qua-png qua-react" />
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-info progress-bar-animated"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  style={{ width: "70%", fontSize: "1.1rem" }}
-                >
-                  70%
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              {/*javascript*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.8,
+                  stiffness: 180,
+                }}
+              >
+                <img src={jscript} alt="javascript" className="qua-png" />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "80%", fontSize: "1.1rem" }}
+                  >
+                    80%
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              id="div-native"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.5,
-                stiffness: 230,
-              }}
-            >
-              <img
-                src={native}
-                alt="react-native"
-                className="qua-png qua-native"
-              />
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                  role="progressbar"
-                  aria-label="Basic example"
-                  style={{ width: "60%", fontSize: "1.1rem" }}
-                >
-                  60%
-                </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         )}
         {category === "FL" && (
           <div className="qua-screens">
-            <motion.div
-              id="div-eng"
-              className="div-qua-png"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{
-                type: "tween",
-                duration: 1.5,
-                stiffness: 500,
-              }}
-            >
-              <img src={ENG} alt="react-native" className="qua-png qua-eng" />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>
-                  English - Upper Intermediate
-                </span>
-              </div>
-            </motion.div>
-
-            <motion.div
-              id="div-speaking"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.3,
-                stiffness: 150,
-              }}
-            >
-              <img src={Speaking} alt="Speaking" className="qua-foreign-png" />
-              <div id="div-qua-speaking">
-                <span style={{ fontSize: "1.5rem" }}>speaking</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "60%", fontSize: "1rem" }}
-                >
-                  60%
+            <div className="row">
+              {/*eng*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{
+                  type: "tween",
+                  duration: 1.5,
+                  stiffness: 500,
+                }}
+              >
+                <img
+                  src={ENG}
+                  alt="reactjs"
+                  className="qua-png qua-react-png"
+                />
+                <div style={{ textAlign: "center" }}>
+                  <span style={{ fontSize: "1rem" }}>
+                    English - Upper Intermediate
+                  </span>
                 </div>
-              </div>
-            </motion.div>
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+            </div>
 
-            <motion.div
-              id="div-listening"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.6,
-                stiffness: 190,
-              }}
-            >
-              <img
-                src={Listening}
-                alt="Listening"
-                className="qua-foreign-listening"
-              />
-              <div id="div-qua-listening">
-                <span style={{ fontSize: "1.5rem" }}>listening</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "80%", fontSize: "1rem" }}
-                >
-                  80%
+            <div className="row">
+              {/*speaking*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.3,
+                  stiffness: 150,
+                }}
+              >
+                <img
+                  src={Speaking}
+                  alt="speaking"
+                  className="qua-png qua-native-png"
+                />
+                <div id="div-qua-speaking">
+                  <span style={{ fontSize: "1rem" }}>speaking</span>
                 </div>
-              </div>
-            </motion.div>
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "60%", fontSize: "1.1rem" }}
+                  >
+                    60%
+                  </div>
+                </div>
+              </motion.div>
+              {/*listening*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.6,
+                  stiffness: 190,
+                }}
+              >
+                <img src={Listening} alt="listening" className="qua-png" />
+                <div id="div-qua-listening">
+                  <span style={{ fontSize: "1rem" }}>listening</span>
+                </div>
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "80%", fontSize: "1.1rem" }}
+                  >
+                    80%
+                  </div>
+                </div>
+              </motion.div>
+              {/*reading*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 1,
+                  stiffness: 220,
+                }}
+              >
+                <img
+                  src={Reading}
+                  alt="reading"
+                  className="qua-png qua-reading-png"
+                />
+                <div id="div-qua-reading">
+                  <span style={{ fontSize: "1rem" }}>reading</span>
+                </div>
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "90%", fontSize: "1.1rem" }}
+                  >
+                    90%
+                  </div>
+                </div>
+              </motion.div>
+            </div>
 
-            <motion.div
-              id="div-reading"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 1,
-                stiffness: 220,
-              }}
-            >
-              <img src={Reading} alt="Reading" className="qua-foreign-png" />
-              <div id="div-qua-reading">
-                <span style={{ fontSize: "1.5rem" }}>reading</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "90%", fontSize: "1rem" }}
-                >
-                  90%
-                </div>
-              </div>
-            </motion.div>
+            <div className="row">
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+            </div>
           </div>
         )}
         {category === "HB" && (
           <div className="qua-screens">
-            <motion.div
-              id="div-body"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 1.2,
-                stiffness: 190,
-              }}
-            >
-              <div id="div-qua-body">
-                <span
-                  className="badge rounded-pill text-bg-warning"
-                  style={{ fontSize: "1.3rem" }}
-                >
-                  back in the day
-                </span>
-              </div>
-              <img
-                src={Bodybuilding}
-                alt="Bodybuilding"
-                className="qua-foreign-png"
-              />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>body-building</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "70%", fontSize: "1rem" }}
-                >
-                  60%
+            <div className="row">
+              {/*coding*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.3,
+                  stiffness: 250,
+                }}
+              >
+                <img
+                  src={Coding}
+                  alt="coding"
+                  className="qua-png qua-coding-png"
+                />
+                <div style={{ textAlign: "center" }}>
+                  <span style={{ fontSize: "1rem" }}>coding</span>
                 </div>
-              </div>
-            </motion.div>
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-success progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "100%", fontSize: "1.1rem" }}
+                  >
+                    100%
+                  </div>
+                </div>
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              {/*hb-reading*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.6,
+                  stiffness: 210,
+                }}
+              >
+                <img
+                  src={Reading}
+                  alt="reading"
+                  className="qua-png qua-reading-png"
+                />
+                <div style={{ textAlign: "center" }}>
+                  <span style={{ fontSize: "1rem" }}>reading</span>
+                </div>
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "50%", fontSize: "1.1rem" }}
+                  >
+                    50%
+                  </div>
+                </div>
+              </motion.div>
+            </div>
 
-            <motion.div
-              id="div-taekwondo"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.9,
-                stiffness: 210,
-              }}
-            >
-              <div>
-                <span
-                  className="badge rounded-pill text-bg-warning"
-                  style={{ fontSize: "1.3rem" }}
-                >
-                  back in the day
-                </span>
-              </div>
-              <img
-                src={Taekwondo}
-                alt="taekwondo"
-                className="qua-foreign-png"
-              />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>taekwon-do</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-dark progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "97%", fontSize: "1rem" }}
-                >
-                  97%
+            <div className="row">
+              <div className="col qua-matrix-column"></div>
+              {/*taekwondo*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.7,
+                  stiffness: 200,
+                }}
+              >
+                <div>
+                  <span
+                    className="badge rounded-pill text-bg-warning"
+                    style={{ fontSize: ".8rem" }}
+                  >
+                    back in the day - taekwon-do
+                  </span>
                 </div>
-              </div>
-            </motion.div>
+                <img
+                  src={Taekwondo}
+                  alt="taekwon-do"
+                  className="qua-png qua-taekwondo-png"
+                />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-dark progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "99%", fontSize: "1.1rem" }}
+                  >
+                    99%
+                  </div>
+                </div>
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+            </div>
 
-            <motion.div
-              id="div-hb-reading"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 1.5,
-                stiffness: 220,
-              }}
-            >
-              <img src={Reading} alt="Reading" className="qua-foreign-png" />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>reading</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-primary progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "50%", fontSize: "1rem" }}
-                >
-                  50%
+            <div className="row">
+              {/*chess*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.5,
+                  stiffness: 230,
+                }}
+              >
+                <img
+                  src={Chess}
+                  alt="chess"
+                  className="qua-png qua-chess-png"
+                />
+                <div style={{ textAlign: "center" }}>
+                  <span style={{ fontSize: "1rem" }}>chess</span>
                 </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              id="div-coding"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.3,
-                stiffness: 120,
-              }}
-            >
-              <img src={Coding} alt="Coding" className="qua-foreign-png" />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>coding</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "100%", fontSize: "1rem" }}
-                >
-                  100%
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-warning progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "75%", fontSize: "1.1rem" }}
+                  >
+                    75%
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              id="div-chess"
-              className="div-qua-png"
-              initial={{ y: "-100vh" }}
-              animate={{ y: 0 }}
-              transition={{
-                type: "spring",
-                delay: 0.6,
-                stiffness: 90,
-              }}
-            >
-              <img src={Chess} alt="Chess" className="qua-foreign-png" />
-              <div>
-                <span style={{ fontSize: "1.5rem" }}>chess</span>
-              </div>
-              <div className="progress">
-                <div
-                  className="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                  role="progressbar"
-                  style={{ width: "75%", fontSize: "1rem" }}
-                >
-                  75%
+              </motion.div>
+              <div className="col qua-matrix-column"></div>
+              <div className="col qua-matrix-column"></div>
+              {/*body-building*/}
+              <motion.div
+                className="col qua-matrix-column"
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{
+                  type: "spring",
+                  delay: 0.8,
+                  stiffness: 180,
+                }}
+              >
+                <div>
+                  <span
+                    className="badge rounded-pill text-bg-warning"
+                    style={{ fontSize: ".8rem" }}
+                  >
+                    back in the day - body-building
+                  </span>
                 </div>
-              </div>
-            </motion.div>
+                <img
+                  src={Bodybuilding}
+                  alt="body-building"
+                  className="qua-png qua-body-png"
+                />
+                <div className="progress">
+                  <div
+                    className="progress-bar progress-bar-striped bg-danger progress-bar-animated"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    style={{ width: "60%", fontSize: "1.1rem" }}
+                  >
+                    60%
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </div>
         )}
       </div>

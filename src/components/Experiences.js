@@ -26,7 +26,7 @@ export const DataCart = ({ theme }) => {
             </div>
             <div className="col-md-8">
               <div
-                className={`card-body experiences-card d-flex align-items-center ${
+                className={`card-body d-flex align-items-center ${
                   theme === "dark" ? "bg-dark" : null
                 }`}
               >

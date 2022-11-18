@@ -223,10 +223,10 @@ body {
 .home-main-container {
     /* background-color: red; */
     width: 70%;
-    margin: -2.5rem auto 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .home-container {
@@ -286,7 +286,7 @@ body {
 
     width: 5rem;
     height: 3rem;
-    line-height: 2rem;
+    padding-top: 1rem;
     border: 2px solid #0e3763;
     background-color: #0e3763;
     color: #F8F9FA;
@@ -304,7 +304,7 @@ body {
 
     width: 5rem;
     height: 3rem;
-    line-height: 2rem;
+    padding-top: 1rem;
     border: 2px solid #0e3763;
     background-color: #F8F9FA;
     color: #0e3763;
@@ -322,7 +322,7 @@ body {
 .btn-qua-outline-navy {
     width: 5rem;
     height: 3rem;
-    line-height: 2rem;
+    padding-top: 1rem;
     border: 2px solid #0e3763;
     color: #0e3763;
     font-size: 1.5rem;
@@ -337,16 +337,15 @@ body {
 }
 
 .btn-qua-outline-navy-dark {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 5rem;
+    height: 3rem;
+    padding-top: 1rem;
+    background-color: transparent;
     color: #F8F9FA;
-    border-color: #F8F9FA;
-    font-size: 3rem;
+    border: 2px solid #F8F9FA;
+    font-size: 1.5rem;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    letter-spacing: .1rem;
 }
 
 .btn-qua-outline-navy-dark:hover {
@@ -375,10 +374,8 @@ body {
 .contact-container {
     /* background-color: yellow; */
     width: 70%;
-    margin: -7rem auto 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
 }
 
@@ -460,18 +457,15 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem auto 0 auto;
+
 
 }
 
 .personal-container {
     /* background-color: yellow; */
     width: 70%;
-    margin: -7rem auto 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
 }
 
 .per-icons {
@@ -488,27 +482,48 @@ ul {
 
 .qua-main-container {
     /* background-color: red; */
-    width: 100%;
-    height: 70vh;
+    width: 70%;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+
+
 }
 
 .qua-container {
     /* background-color: yellow; */
     flex: 1;
-    height: 70vh;
-    align-self: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
 }
 
 .qua-screens {
     /* background-color: green; */
     width: 90%;
-    height: 63vh;
-    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    overflow: hidden;
+
+}
+
+.qua-matrix-column {
+
+    /* background-color: beige; */
+    width: 10rem;
+    height: 10rem;
+    margin: 1px 0 0 1px;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
 }
 
 .qua-buttons {
@@ -520,124 +535,30 @@ ul {
 }
 
 .qua-my-btn {
-    height: 4rem;
-    font-size: 1.7rem;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
+    /* background-color: red; */
+    line-height: initial;
+    padding-bottom: 2.3rem;
 }
 
 .qua-png {
-    width: 7rem;
-    margin-bottom: .5rem;
+    width: 5rem;
+    height: 6.875rem;
+    align-self: center;
+    margin-bottom: .3rem;
 }
 
-.qua-react {
-    width: 10rem;
+.qua-react-png {
+    align-self: center;
 }
 
-.qua-native {
-    width: 13rem;
+.qua-native-png,
+.qua-reading-png,
+.qua-coding-png,
+.qua-taekwondo-png,
+.qua-chess-png,
+.qua-body-png {
+    width: 9.06rem;
 }
-
-.qua-eng {
-    width: 13rem;
-}
-
-.qua-foreign-png {
-
-    width: 10rem;
-}
-
-.qua-foreign-listening {
-
-    width: 7rem;
-}
-
-.div-qua-png {
-    position: absolute;
-    /* background-color: beige; */
-}
-
-#div-reactjs {
-    top: 60px;
-    left: 100px;
-}
-
-#div-native {
-    top: 310px;
-    left: 150px;
-}
-
-#div-css3 {
-    top: 80px;
-    left: 450px;
-}
-
-#div-html5 {
-    top: 50px;
-    left: 810px;
-}
-
-#div-jscript {
-    top: 320px;
-    left: 660px;
-}
-
-/******************************/
-
-#div-eng {
-    top: 40px;
-    left: 50px;
-
-}
-
-#div-speaking {
-
-    top: 250px;
-    left: 150px;
-}
-
-#div-listening {
-    top: 80px;
-    left: 450px;
-}
-
-#div-reading {
-    top: 240px;
-    left: 680px;
-}
-
-/*************************************/
-
-#div-coding {
-    top: 50px;
-    left: 90px;
-}
-
-#div-chess {
-    top: 310px;
-    left: 120px;
-
-}
-
-#div-taekwondo {
-    top: 135px;
-    left: 400px;
-}
-
-#div-hb-reading {
-    top: 30px;
-    left: 770px;
-}
-
-#div-body {
-    top: 270px;
-    left: 685px;
-}
-
 
 /* QUALIFICATIONS PAGE SETTINGS END */
 
@@ -648,7 +569,6 @@ ul {
     /* background-color: red; */
     width: 70%;
     margin: 0 auto;
-    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -658,13 +578,8 @@ ul {
 .experiences-container {
     /* background-color: yellow; */
     width: 80%;
-    margin: -3rem auto 0 auto;
     align-self: center;
 }
-
-/* .experiences-card h5:nth-child(even) {
-    background-color: #E9ECEF;
-} */
 
 .img-size {
     width: 10rem;
@@ -677,7 +592,7 @@ ul {
 
 .summary-main-container {
     /* background-color: red; */
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 2rem;
     display: flex;
@@ -718,13 +633,14 @@ ul {
     /* background-color: red; */
     width: 70%;
     margin: 0 auto;
-    align-self: center;
-    margin-top: -7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
 }
 
 .notfound-container img {
-
-    width: 100%;
+    width: 80%;
 }
 
 /* NOTFOUND PAGE SETTINGS END */
