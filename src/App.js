@@ -153,7 +153,11 @@ function App() {
           </Routes>
         </div>
 
-        <FooterBar changeThemeMode={changeThemeMode} whatsapp={whatsapp} />
+        <FooterBar
+          changeThemeMode={changeThemeMode}
+          whatsapp={whatsapp}
+          theme={theme}
+        />
 
         <div
           className="footer"
