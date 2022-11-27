@@ -34,6 +34,13 @@ function App() {
     }
   }, []);
 
+  useEffect(() => {
+    setActiveColor({
+      bgColor: "rgba(220, 20, 60, 0.3)",
+      txtColor: "rgba(220, 20, 60, 1)",
+    });
+  }, []);
+
   const changeThemeMode = (mode) => {
     if (mode === false) {
       setTheme("dark");
