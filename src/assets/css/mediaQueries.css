@@ -1,10 +1,8 @@
 /* Bu aralığa kadar çalışmasın... */
 @media screen and (max-width: 319px) {
-
-    * {
-        display: none;
-    }
-
+  * {
+    display: none;
+  }
 }
 
 /*
@@ -14,233 +12,216 @@ IPHONE 5/SE (320 X 568)
 GALAXY S 9+ (320 X 658)
 */
 @media screen and (min-width: 320px) and (max-width: 339px) {
+  html {
+    font-size: 5px;
+  }
 
-    html {
-        font-size: 5px;
-    }
+  .footer {
+    flex: 0.1;
+  }
 
-    .footer {
-        flex: .1;
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    }
+  /*HOME PAGE*/
 
-    .whatsapp-chat {
+  .home-main-container {
+    width: 90%;
+  }
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-container {
+    width: 100%;
+  }
 
-    }
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-    /*HOME PAGE*/
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-main-container {
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-        width: 90%;
-    }
+  /* PERSONAL PAGE */
 
-    .home-container {
-        width: 100%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    .contact-container {
-        width: 90%;
-    }
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    /* PERSONAL PAGE */
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /* EXPERIENCES PAGE*/
 
-    /*QUALIFICATIONS PAGE*/
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-main-container {
+  .experiences-container {
+    width: 90%;
+  }
 
-        width: 100%;
-        height: 50vh;
-    }
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  /* SUMMARY PAGE */
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .summary-main-container {
+    width: 90%;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  .summary-container {
+    width: 90%;
+  }
 
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.7rem;
-    }
-
-
-
+  .div-text-img p {
+    font-size: 2.7rem;
+  }
 }
 
 /*
 PIXEL 4 (353 X 745)
 */
 @media screen and (min-width: 340px) and (max-width: 359px) {
+  html {
+    font-size: 6px;
+  }
 
-    html {
-        font-size: 6px;
-    }
+  .footer {
+    flex: 0.1;
+  }
 
-    .footer {
-        flex: .1;
-    }
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* 
@@ -265,228 +246,214 @@ GALAXY S 8+ (360 X 740)
 IPHONE X (375 X 812)
 */
 @media screen and (min-width: 360px) and (max-width: 389px) {
+  html {
+    font-size: 6px;
+  }
 
-    html {
-        font-size: 6px;
-    }
+  .footer {
+    flex: 0.1;
+  }
 
-    .footer {
-        flex: .1;
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    }
+  /*HOME PAGE*/
 
-    .whatsapp-chat {
+  .home-main-container {
+    width: 90%;
+  }
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-container {
+    width: 100%;
+  }
 
-    }
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    /*HOME PAGE*/
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-    .home-main-container {
+  .contact-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  /* PERSONAL PAGE */
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    /* PERSONAL PAGE */
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    .personal-container {
-        width: 90%;
-    }
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    /*QUALIFICATIONS PAGE*/
+  /* EXPERIENCES PAGE*/
 
-    .qua-main-container {
+  .experiences-main-container {
+    width: 100%;
+  }
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  /* SUMMARY PAGE */
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  .summary-main-container {
+    width: 90%;
+  }
 
+  .summary-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.7rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.7rem;
+  }
 }
 
 /* IPHONE 12 Pro (390 X 844) */
 @media screen and (min-width: 390px) and (max-width: 392px) {
-    html {
-        font-size: 6px;
-    }
+  html {
+    font-size: 6px;
+  }
 
-    .footer {
-        flex: .1;
+  .footer {
+    flex: 0.1;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.7rem;
-    }
+  .div-text-img p {
+    font-size: 2.7rem;
+  }
 }
 
 /* 
@@ -499,116 +466,108 @@ PIXEL 2 XL (411 X 823)
 PIXEL 5 (393 X 851) 
  */
 @media screen and (min-width: 393px) and (max-width: 411px) {
+  html {
+    font-size: 6px;
+  }
 
-    html {
-        font-size: 6px;
-    }
+  .footer {
+    flex: 0.1;
+  }
 
-    .footer {
-        flex: .1;
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    }
+  /*HOME PAGE*/
 
-    .whatsapp-chat {
+  .home-main-container {
+    width: 90%;
+  }
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-container {
+    width: 100%;
+  }
 
-    }
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    /*HOME PAGE*/
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-    .home-main-container {
+  .contact-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  /* PERSONAL PAGE */
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    /* PERSONAL PAGE */
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    .personal-container {
-        width: 90%;
-    }
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    /*QUALIFICATIONS PAGE*/
+  /* EXPERIENCES PAGE*/
 
-    .qua-main-container {
+  .experiences-main-container {
+    width: 100%;
+  }
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  /* SUMMARY PAGE */
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  .summary-main-container {
+    width: 90%;
+  }
 
+  .summary-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.7rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.7rem;
+  }
 }
 
 /*
@@ -624,228 +583,214 @@ SAMSUNG GALAXY A51/A71 (412 X 914)
 SAMSUNG GALAXY S20 ULTRA (412 X 915)
 */
 @media screen and (min-width: 412px) and (max-width: 479px) {
-    html {
-        font-size: 7px;
-    }
+  html {
+    font-size: 7px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2.3rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2.3rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* NOKIA N9 (480 X 854) */
 @media screen and (min-width: 480px) and (max-width: 519px) {
-    html {
-        font-size: 7px;
-    }
+  html {
+    font-size: 7px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: -0.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: -.5rem;
-        bottom: 10rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* 
@@ -854,115 +799,108 @@ NEXUS 7 (600 X 960)
 BLACKBERRY PLAYBOOK (600 X 1024)
 */
 @media screen and (min-width: 520px) and (max-width: 767px) {
-    html {
-        font-size: 7px;
-    }
+  html {
+    font-size: 7px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2.5rem;
+    position: fixed !important;
+    right: 5.5rem !important;
+    bottom: 10rem !important;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2.5rem;
-        position: fixed;
-        right: 5.5rem;
-        bottom: 10rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* 
@@ -975,332 +913,311 @@ KINDLE FIRE HDX (800 X 1280)
 NEXUS 10 (800 X 1280)
 */
 @media screen and (min-width: 768px) and (max-width: 819px) {
-    html {
-        font-size: 9px;
-    }
+  html {
+    font-size: 9px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
-    }
+  .home-main-container {
+    width: 90%;
+  }
 
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* IPAD AIR (820 X 1180) */
 @media screen and (min-width: 820px) and (max-width: 911px) {
-    html {
-        font-size: 10px;
-    }
+  html {
+    font-size: 10px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* SURFACE Pro 7 (912 X 1368) */
 @media screen and (min-width: 912px) and (max-width: 1023px) {
-    html {
-        font-size: 11px;
-    }
+  html {
+    font-size: 11px;
+  }
 
-    .footer {
-        flex: .12;
+  .footer {
+    flex: 0.12;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
+  .home-main-container {
+    width: 90%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 90%;
+  }
 
-        width: 90%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 90%;
-    }
+  .personal-main-container {
+    width: 90%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-main-container {
-        width: 90%;
-    }
+  .qua-container {
+    width: 100%;
+    height: 50vh;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 90%;
+    height: 30vh;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-main-container {
+    width: 100%;
+  }
 
-    .qua-container {
-        width: 100%;
-        height: 50vh;
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .qua-screens {
-        width: 90%;
-        height: 30vh;
-        flex: 1;
-    }
+  /* SUMMARY PAGE */
 
+  .summary-main-container {
+    width: 90%;
+  }
 
-    /* EXPERIENCES PAGE*/
+  .summary-container {
+    width: 90%;
+  }
 
-    .experiences-main-container {
-        width: 100%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 90%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* 
@@ -1308,436 +1225,400 @@ NEST HUB (1024 X 600)
 IPAD PRO (1024 X 1366)
 */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    html {
-        font-size: 10px;
-    }
+  html {
+    font-size: 10px;
+  }
 
-    .footer {
-        flex: .17;
+  .footer {
+    flex: 0.17;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
+  .home-main-container {
+    width: 70%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 70%;
+  }
 
-        width: 70%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 70%;
-    }
+  .personal-main-container {
+    width: 70%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 70%;
+  }
 
-    .personal-main-container {
-        width: 70%;
-    }
+  .qua-container {
+    width: 100%;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 100%;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 70%;
+  .experiences-main-container {
+    width: 70%;
+  }
 
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    }
+  /* SUMMARY PAGE */
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .summary-main-container {
+    width: 70%;
+  }
 
-    .qua-screens {
-        width: 100%;
-        flex: 1;
-    }
+  .summary-container {
+    width: 90%;
+  }
 
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 70%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 70%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* NEST HUB MAX (1280 X 800) */
 @media screen and (min-width: 1280px) and (max-width: 1359px) {
-    html {
-        font-size: 12px;
-    }
+  html {
+    font-size: 12px;
+  }
 
-    .footer {
-        flex: .2;
+  .footer {
+    flex: 0.2;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
+  .home-main-container {
+    width: 70%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 70%;
+  }
 
-        width: 70%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 70%;
-    }
+  .personal-main-container {
+    width: 70%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 70%;
+  }
 
-    .personal-main-container {
-        width: 70%;
-    }
+  .qua-container {
+    width: 100%;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 100%;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 70%;
+  .experiences-main-container {
+    width: 70%;
+  }
 
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    }
+  /* SUMMARY PAGE */
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .summary-main-container {
+    width: 70%;
+  }
 
-    .qua-screens {
-        width: 100%;
-        flex: 1;
-    }
+  .summary-container {
+    width: 90%;
+  }
 
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 70%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 70%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* OTHERS */
 @media screen and (min-width: 1360px) and (max-width: 1499px) {
-    html {
-        font-size: 10px;
-    }
+  html {
+    font-size: 10px;
+  }
 
-    .footer {
-        flex: .2;
+  .footer {
+    flex: 0.2;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 2rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 2rem;
+  .home-main-container {
+    width: 70%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 70%;
+  }
 
-        width: 70%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 70%;
-    }
+  .personal-main-container {
+    width: 70%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 70%;
+  }
 
-    .personal-main-container {
-        width: 70%;
-    }
+  .qua-container {
+    width: 100%;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 100%;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 70%;
+  .experiences-main-container {
+    width: 70%;
+  }
 
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    }
+  /* SUMMARY PAGE */
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .summary-main-container {
+    width: 70%;
+  }
 
-    .qua-screens {
-        width: 100%;
-        flex: 1;
-    }
+  .summary-container {
+    width: 90%;
+  }
 
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 70%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 70%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
 
 /* OTHERS */
 @media screen and (min-width: 1500px) and (max-width: 1799px) {
-    html {
-        font-size: 13px;
-    }
+  html {
+    font-size: 13px;
+  }
 
-    .footer {
-        flex: .2;
+  .footer {
+    flex: 0.2;
+  }
 
-    }
+  .whatsapp-chat {
+    font-size: 1.5rem;
+  }
 
-    .whatsapp-chat {
+  /*HOME PAGE*/
 
-        font-size: 1.5rem;
+  .home-main-container {
+    width: 70%;
+  }
 
-    }
+  .home-container {
+    width: 100%;
+  }
 
-    /*HOME PAGE*/
+  .home-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
 
-    .home-main-container {
+  /*CONTACT PAGE*/
+  .contact-main-container {
+    width: 70%;
+  }
 
-        width: 70%;
-    }
+  .contact-container {
+    width: 90%;
+  }
 
-    .home-container {
-        width: 100%;
-    }
+  .div-contact-header h2 {
+    margin-bottom: 2rem;
+  }
 
-    .home-question {
-        font-size: 1.2rem;
-        margin-bottom: .7rem;
-    }
+  /* PERSONAL PAGE */
 
-    /*CONTACT PAGE*/
-    .contact-main-container {
-        width: 70%;
-    }
+  .personal-main-container {
+    width: 70%;
+  }
 
-    .contact-container {
-        width: 90%;
-    }
+  .personal-container {
+    width: 90%;
+  }
 
-    .div-contact-header h2 {
-        margin-bottom: 2rem;
-    }
+  /*QUALIFICATIONS PAGE*/
 
-    /* PERSONAL PAGE */
+  .qua-main-container {
+    width: 70%;
+  }
 
-    .personal-main-container {
-        width: 70%;
-    }
+  .qua-container {
+    width: 100%;
+  }
 
-    .personal-container {
-        width: 90%;
-    }
+  /*QUALIFICATIONS PAGE*/
+  /*Programming Lang.*/
 
-    /*QUALIFICATIONS PAGE*/
+  .qua-screens {
+    width: 100%;
+    flex: 1;
+  }
 
-    .qua-main-container {
+  /* EXPERIENCES PAGE*/
 
-        width: 70%;
+  .experiences-main-container {
+    width: 70%;
+  }
 
-    }
+  .experiences-container {
+    width: 90%;
+  }
 
-    .qua-container {
-        width: 100%;
+  .img-size {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    }
+  /* SUMMARY PAGE */
 
-    /*QUALIFICATIONS PAGE*/
-    /*Programming Lang.*/
+  .summary-main-container {
+    width: 70%;
+  }
 
-    .qua-screens {
-        width: 100%;
-        flex: 1;
-    }
+  .summary-container {
+    width: 90%;
+  }
 
-
-    /* EXPERIENCES PAGE*/
-
-    .experiences-main-container {
-        width: 70%;
-    }
-
-    .experiences-container {
-        width: 90%;
-    }
-
-    .img-size {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    /* SUMMARY PAGE */
-
-    .summary-main-container {
-        width: 70%;
-    }
-
-    .summary-container {
-        width: 90%;
-    }
-
-    .div-text-img p {
-        font-size: 2.5rem;
-    }
-
+  .div-text-img p {
+    font-size: 2.5rem;
+  }
 }
