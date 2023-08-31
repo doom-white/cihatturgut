@@ -18,7 +18,7 @@ const Profile = ({ theme }) => {
       />
       <h2>Cihat Turgut</h2>
       <h4 style={theme === "dark" ? { color: "crimson" } : null}>
-        an unemployed & inexperienced engineer ...
+        software engineer & mernstack developer...
       </h4>
       <img src={divider} alt="divider" />
     </div>
