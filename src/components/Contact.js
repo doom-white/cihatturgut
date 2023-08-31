@@ -113,7 +113,7 @@ const Contact = ({ chageFooterColorsHandler, theme, getWhatsappStatus }) => {
                 id="btnAddress"
                 onClick={onClipboardHandler}
               />
-              <span>Türkiye / Homeless</span>
+              <span>Eskişehir / Türkiye </span>
               <label htmlFor="floatingInputGrid">Address</label>
               <ToastContainer autoClose={300} position="top-center" />
             </div>
